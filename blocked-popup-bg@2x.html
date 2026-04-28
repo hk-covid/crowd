@@ -1,0 +1,1318 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="imagetoolbar" content="no">
+    <meta name="msthemecompatible" content="no">
+    <meta name="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="google" value="notranslate">
+    <meta name="theme-color" content="#F7931A">
+
+    
+    
+    <title>Error 404 | CryptoTab Browser</title>
+
+    
+
+    
+    
+      <link rel="stylesheet" type="text/css" href="https://cdn.cryptobrowser.space/static/bl/styles/style.css?t=361174831519">
+      <link rel="stylesheet" href='https://cdn.cryptobrowser.space/static/bl/styles/animate.css'>
+    
+    
+
+    <link href="https://cdn.cryptobrowser.space/static/bl/favicon.ico" rel="icon" type="image/x-icon">
+    <script>window.API_URL = "https://api.cryptobrowser.site"</script>
+
+    
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest%2CObject.assign%2CNumber.isNaN%2CString.prototype.includes%2CPromise%2Cfetch%2ClocalStorage%2CURL"></script>
+<script>
+  var Sentry=function(n){var t=function(n,r){return(t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,t){n.__proto__=t}||function(n,t){for(var r in t)t.hasOwnProperty(r)&&(n[r]=t[r])})(n,r)};function r(n,r){function e(){this.constructor=n}t(n,r),n.prototype=null===r?Object.create(r):(e.prototype=r.prototype,new e)}var e=function(){return(e=Object.assign||function(n){for(var t,r=1,e=arguments.length;r<e;r++)for(var i in t=arguments[r])Object.prototype.hasOwnProperty.call(t,i)&&(n[i]=t[i]);return n}).apply(this,arguments)};function i(n,t){var r="function"==typeof Symbol&&n[Symbol.iterator];if(!r)return n;var e,i,o=r.call(n),u=[];try{for(;(void 0===t||t-- >0)&&!(e=o.next()).done;)u.push(e.value)}catch(n){i={error:n}}finally{try{e&&!e.done&&(r=o.return)&&r.call(o)}finally{if(i)throw i.error}}return u}function o(){for(var n=[],t=0;t<arguments.length;t++)n=n.concat(i(arguments[t]));return n}var u,c,s;!function(n){n[n.None=0]="None",n[n.Error=1]="Error",n[n.Debug=2]="Debug",n[n.Verbose=3]="Verbose"}(u||(u={})),(c=n.Severity||(n.Severity={})).Fatal="fatal",c.Error="error",c.Warning="warning",c.Log="log",c.Info="info",c.Debug="debug",c.Critical="critical",function(n){n.fromString=function(t){switch(t){case"debug":return n.Debug;case"info":return n.Info;case"warn":case"warning":return n.Warning;case"error":return n.Error;case"fatal":return n.Fatal;case"critical":return n.Critical;case"log":default:return n.Log}}}(n.Severity||(n.Severity={})),(s=n.Status||(n.Status={})).Unknown="unknown",s.Skipped="skipped",s.Success="success",s.RateLimit="rate_limit",s.Invalid="invalid",s.Failed="failed",function(n){n.fromHttpCode=function(t){return t>=200&&t<300?n.Success:429===t?n.RateLimit:t>=400&&t<500?n.Invalid:t>=500?n.Failed:n.Unknown}}(n.Status||(n.Status={}));var a=Object.setPrototypeOf||({__proto__:[]}instanceof Array?function(n,t){return n.__proto__=t,n}:function(n,t){for(var r in t)n.hasOwnProperty(r)||(n[r]=t[r]);return n});var f=function(n){function t(t){var r=this.constructor,e=n.call(this,t)||this;return e.message=t,e.name=r.prototype.constructor.name,a(e,r.prototype),e}return r(t,n),t}(Error);function h(n){switch(Object.prototype.toString.call(n)){case"[object Error]":case"[object Exception]":case"[object DOMException]":return!0;default:return n instanceof Error}}function l(n){return"[object ErrorEvent]"===Object.prototype.toString.call(n)}function v(n){return"[object DOMError]"===Object.prototype.toString.call(n)}function d(n){return"[object String]"===Object.prototype.toString.call(n)}function p(n){return null===n||"object"!=typeof n&&"function"!=typeof n}function m(n){return"[object Object]"===Object.prototype.toString.call(n)}function y(n){return Boolean(n&&n.then&&"function"==typeof n.then)}var b={};function w(){return"[object process]"===Object.prototype.toString.call("undefined"!=typeof process?process:0)?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:b}function g(){var n=w(),t=n.crypto||n.msCrypto;if(void 0!==t&&t.getRandomValues){var r=new Uint16Array(8);t.getRandomValues(r),r[3]=4095&r[3]|16384,r[4]=16383&r[4]|32768;var e=function(n){for(var t=n.toString(16);t.length<4;)t="0"+t;return t};return e(r[0])+e(r[1])+e(r[2])+e(r[3])+e(r[4])+e(r[5])+e(r[6])+e(r[7])}return"xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx".replace(/[xy]/g,function(n){var t=16*Math.random()|0;return("x"===n?t:3&t|8).toString(16)})}function E(n){if(!n)return{};var t=n.match(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/);if(!t)return{};var r=t[6]||"",e=t[8]||"";return{host:t[4],path:t[5],protocol:t[2],relative:t[5]+r+e}}function j(n){if(n.message)return n.message;if(n.exception&&n.exception.values&&n.exception.values[0]){var t=n.exception.values[0];return t.type&&t.value?t.type+": "+t.value:t.type||t.value||n.event_id||"<unknown>"}return n.event_id||"<unknown>"}function x(n){var t=w();if(!("console"in t))return n();var r=t.console,e={};["debug","info","warn","error","log","assert"].forEach(function(n){n in t.console&&r[n].__sentry__&&(e[n]=r[n].__sentry_wrapped__,r[n]=r[n].__sentry_original__)});var i=n();return Object.keys(e).forEach(function(n){r[n]=e[n]}),i}function _(n,t,r,e){void 0===e&&(e={handled:!0,type:"generic"}),n.exception=n.exception||{},n.exception.values=n.exception.values||[],n.exception.values[0]=n.exception.values[0]||{},n.exception.values[0].value=n.exception.values[0].value||t||"",n.exception.values[0].type=n.exception.values[0].type||r||"Error",n.exception.values[0].mechanism=n.exception.values[0].mechanism||e}var S=w(),O="Sentry Logger ",k=function(){function n(){this.t=!1}return n.prototype.disable=function(){this.t=!1},n.prototype.enable=function(){this.t=!0},n.prototype.log=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];this.t&&x(function(){S.console.log(O+"[Log]: "+n.join(" "))})},n.prototype.warn=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];this.t&&x(function(){S.console.warn(O+"[Warn]: "+n.join(" "))})},n.prototype.error=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];this.t&&x(function(){S.console.error(O+"[Error]: "+n.join(" "))})},n}();S.__SENTRY__=S.__SENTRY__||{};var T=S.__SENTRY__.logger||(S.__SENTRY__.logger=new k),R=function(){function n(){this.i="function"==typeof WeakSet,this.o=this.i?new WeakSet:[]}return n.prototype.memoize=function(n){if(this.i)return!!this.o.has(n)||(this.o.add(n),!1);for(var t=0;t<this.o.length;t++){if(this.o[t]===n)return!0}return this.o.push(n),!1},n.prototype.unmemoize=function(n){if(this.i)this.o.delete(n);else for(var t=0;t<this.o.length;t++)if(this.o[t]===n){this.o.splice(t,1);break}},n}();function D(n,t,r){if(t in n){var e=n[t],i=r(e);if("function"==typeof i)try{i.prototype=i.prototype||{},Object.defineProperties(i,{__sentry__:{enumerable:!1,value:!0},__sentry_original__:{enumerable:!1,value:e},__sentry_wrapped__:{enumerable:!1,value:i}})}catch(n){}n[t]=i}}function I(n){return function(n){return~-encodeURI(n).split(/%..|./).length}(JSON.stringify(n))}function N(n,t,r){void 0===t&&(t=3),void 0===r&&(r=102400);var e=U(n,t);return I(e)>r?N(n,t-1,r):e}function C(n,t){return"domain"===t&&"object"==typeof n&&n.u?"[Domain]":"domainEmitter"===t?"[DomainEmitter]":"undefined"!=typeof global&&n===global?"[Global]":"undefined"!=typeof window&&n===window?"[Window]":"undefined"!=typeof document&&n===document?"[Document]":"undefined"!=typeof Event&&n instanceof Event?Object.getPrototypeOf(n)?n.constructor.name:"Event":m(r=n)&&"nativeEvent"in r&&"preventDefault"in r&&"stopPropagation"in r?"[SyntheticEvent]":Number.isNaN(n)?"[NaN]":void 0===n?"[undefined]":"function"==typeof n?"[Function: "+(n.name||"<unknown-function-name>")+"]":n;var r}function A(n,t,r,e){if(void 0===r&&(r=1/0),void 0===e&&(e=new R),0===r)return function(n){var t=Object.prototype.toString.call(n);if("string"==typeof n)return n;if("[object Object]"===t)return"[Object]";if("[object Array]"===t)return"[Array]";var r=C(n);return p(r)?r:t}(t);if(null!=t&&"function"==typeof t.toJSON)return t.toJSON();var i=C(t,n);if(p(i))return i;var o=h(t)?function(n){var t={message:n.message,name:n.name,stack:n.stack};for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(t[r]=n[r]);return t}(t):t,u=Array.isArray(t)?[]:{};if(e.memoize(t))return"[Circular ~]";for(var c in o)Object.prototype.hasOwnProperty.call(o,c)&&(u[c]=A(c,o[c],r-1,e));return e.unmemoize(t),u}function U(n,t){try{return JSON.parse(JSON.stringify(n,function(n,r){return A(n,r,t)}))}catch(n){return"**non-serializable**"}}var L,M=function(){function n(n){this.s=n,this.h=[]}return n.prototype.isReady=function(){return void 0===this.s||this.length()<this.s},n.prototype.add=function(n){var t=this;return this.isReady()?(-1===this.h.indexOf(n)&&this.h.push(n),n.then(function(){return t.remove(n)}).catch(function(){return t.remove(n).catch(function(){})}),n):Promise.reject(new f("Not adding Promise due to buffer limit reached."))},n.prototype.remove=function(n){return this.h.splice(this.h.indexOf(n),1)[0]},n.prototype.length=function(){return this.h.length},n.prototype.drain=function(n){var t=this;return new Promise(function(r){var e=setTimeout(function(){n&&n>0&&r(!1)},n);Promise.all(t.h).then(function(){clearTimeout(e),r(!0)}).catch(function(){r(!0)})})},n}();function F(n,t){return void 0===t&&(t=0),"string"!=typeof n||0===t?n:n.length<=t?n:n.substr(0,t)+"..."}function P(n,t){if(!Array.isArray(n))return"";for(var r=[],e=0;e<n.length;e++){var i=n[e];try{r.push(String(i))}catch(n){r.push("[value cannot be serialized]")}}return r.join(t)}function $(n,t){if(void 0===t&&(t=40),!n.length)return"[object has no keys]";if(n[0].length>=t)return F(n[0],t);for(var r=n.length;r>0;r--){var e=n.slice(0,r).join(", ");if(!(e.length>t))return r===n.length?e:F(e,t)}return""}function q(n,t){return r=t,"[object RegExp]"===Object.prototype.toString.call(r)?t.test(n):"string"==typeof t&&n.includes(t);var r}function H(){if(!("fetch"in w()))return!1;try{return new Headers,new Request(""),new Response,!0}catch(n){return!1}}function W(){if(!H())return!1;try{return new Request("_",{referrerPolicy:"origin"}),!0}catch(n){return!1}}!function(n){n.PENDING="PENDING",n.RESOLVED="RESOLVED",n.REJECTED="REJECTED"}(L||(L={}));var B=function(){function n(n){var t=this;this.l=L.PENDING,this.v=[],this.p=function(n){t.m(n,L.RESOLVED)},this.g=function(n){t.m(n,L.REJECTED)},this.m=function(n,r){t.l===L.PENDING&&(y(n)?n.then(t.p,t.g):(t.j=n,t.l=r,t._()))},this._=function(){t.l!==L.PENDING&&(t.l===L.REJECTED?t.v.forEach(function(n){return n.onFail&&n.onFail(t.j)}):t.v.forEach(function(n){return n.onSuccess&&n.onSuccess(t.j)}),t.v=[])},this.S=function(n){t.v=t.v.concat(n),t._()};try{n(this.p,this.g)}catch(n){this.g(n)}}return n.prototype.then=function(t,r){var e=this;return new n(function(n,i){e.S({onFail:function(t){if(r)try{return void n(r(t))}catch(n){return void i(n)}else i(t)},onSuccess:function(r){if(t)try{return void n(t(r))}catch(n){return void i(n)}else n(r)}})})},n.prototype.catch=function(n){return this.then(function(n){return n},n)},n.prototype.toString=function(){return"[object SyncPromise]"},n.resolve=function(t){return new n(function(n){n(t)})},n.reject=function(t){return new n(function(n,r){r(t)})},n}(),J=/^[ \t]*([0-9a-f]{32})?-?([0-9a-f]{16})?-?([01])?[ \t]*$/,X=function(){function n(n,t,r,e){void 0===n&&(n=g()),void 0===t&&(t=g().substring(16)),this.O=n,this.k=t,this.T=r,this.R=e}return n.prototype.setParent=function(n){return this.R=n,this},n.prototype.setSampled=function(n){return this.T=n,this},n.fromTraceparent=function(t){var r=t.match(J);if(r){var e=void 0;"1"===r[3]?e=!0:"0"===r[3]&&(e=!1);var i=new n(r[1],r[2],e);return new n(r[1],void 0,e,i)}},n.prototype.toTraceparent=function(){var n="";return!0===this.T?n="-1":!1===this.T&&(n="-0"),this.O+"-"+this.k+n},n.prototype.toJSON=function(){return{parent:this.R&&this.R.toJSON()||void 0,sampled:this.T,span_id:this.k,trace_id:this.O}},n}(),z=function(){function n(){this.D=!1,this.I=[],this.N=[],this.C=[],this.A={},this.U={},this.L={},this.M={}}return n.prototype.addScopeListener=function(n){this.I.push(n)},n.prototype.addEventProcessor=function(n){return this.N.push(n),this},n.prototype.F=function(){var n=this;this.D||(this.D=!0,setTimeout(function(){n.I.forEach(function(t){t(n)}),n.D=!1}))},n.prototype.P=function(n,t,r,i){var o=this;return void 0===i&&(i=0),new B(function(u,c){var s=n[i];if(null===t||"function"!=typeof s)u(t);else{var a=s(e({},t),r);y(a)?a.then(function(t){return o.P(n,t,r,i+1).then(u)}).catch(c):o.P(n,a,r,i+1).then(u).catch(c)}})},n.prototype.setUser=function(n){return this.A=U(n),this.F(),this},n.prototype.setTags=function(n){return this.U=e({},this.U,U(n)),this.F(),this},n.prototype.setTag=function(n,t){var r;return this.U=e({},this.U,((r={})[n]=U(t),r)),this.F(),this},n.prototype.setExtras=function(n){return this.L=e({},this.L,U(n)),this.F(),this},n.prototype.setExtra=function(n,t){var r;return this.L=e({},this.L,((r={})[n]=U(t),r)),this.F(),this},n.prototype.setFingerprint=function(n){return this.$=U(n),this.F(),this},n.prototype.setLevel=function(n){return this.q=U(n),this.F(),this},n.prototype.setTransaction=function(n){return this.H=n,this.F(),this},n.prototype.setContext=function(n,t){return this.M[n]=t?U(t):void 0,this.F(),this},n.prototype.setSpan=function(n){return this.W=n,this.F(),this},n.prototype.startSpan=function(n){var t=new X;return t.setParent(n),this.setSpan(t),t},n.prototype.getSpan=function(){return this.W},n.clone=function(t){var r=new n;return Object.assign(r,t,{I:[]}),t&&(r.C=o(t.C),r.U=e({},t.U),r.L=e({},t.L),r.M=e({},t.M),r.A=t.A,r.q=t.q,r.W=t.W,r.H=t.H,r.$=t.$,r.N=o(t.N)),r},n.prototype.clear=function(){return this.C=[],this.U={},this.L={},this.A={},this.M={},this.q=void 0,this.H=void 0,this.$=void 0,this.W=void 0,this.F(),this},n.prototype.addBreadcrumb=function(n,t){var r=(new Date).getTime()/1e3,i=e({timestamp:r},n);return this.C=void 0!==t&&t>=0?o(this.C,[U(i)]).slice(-t):o(this.C,[U(i)]),this.F(),this},n.prototype.clearBreadcrumbs=function(){return this.C=[],this.F(),this},n.prototype.B=function(n){n.fingerprint=n.fingerprint?Array.isArray(n.fingerprint)?n.fingerprint:[n.fingerprint]:[],this.$&&(n.fingerprint=n.fingerprint.concat(this.$)),n.fingerprint&&!n.fingerprint.length&&delete n.fingerprint},n.prototype.applyToEvent=function(n,t){return this.L&&Object.keys(this.L).length&&(n.extra=e({},this.L,n.extra)),this.U&&Object.keys(this.U).length&&(n.tags=e({},this.U,n.tags)),this.A&&Object.keys(this.A).length&&(n.user=e({},this.A,n.user)),this.M&&Object.keys(this.M).length&&(n.contexts=e({},this.M,n.contexts)),this.q&&(n.level=this.q),this.H&&(n.transaction=this.H),this.W&&(n.contexts=n.contexts||{},n.contexts.trace=this.W),this.B(n),n.breadcrumbs=o(n.breadcrumbs||[],this.C),n.breadcrumbs=n.breadcrumbs.length>0?n.breadcrumbs:void 0,this.P(o(G(),this.N),n,t)},n}();function G(){var n=w();return n.__SENTRY__=n.__SENTRY__||{},n.__SENTRY__.globalEventProcessors=n.__SENTRY__.globalEventProcessors||[],n.__SENTRY__.globalEventProcessors}function V(n){G().push(n)}var K=3,Z=function(){function n(n,t,r){void 0===t&&(t=new z),void 0===r&&(r=K),this.J=r,this.X=[],this.X.push({client:n,scope:t})}return n.prototype.G=function(n){for(var t,r=[],e=1;e<arguments.length;e++)r[e-1]=arguments[e];var i=this.getStackTop();i&&i.client&&i.client[n]&&(t=i.client)[n].apply(t,o(r,[i.scope]))},n.prototype.isOlderThan=function(n){return this.J<n},n.prototype.bindClient=function(n){this.getStackTop().client=n},n.prototype.pushScope=function(){var n=this.getStack(),t=n.length>0?n[n.length-1].scope:void 0,r=z.clone(t);return this.getStack().push({client:this.getClient(),scope:r}),r},n.prototype.popScope=function(){return void 0!==this.getStack().pop()},n.prototype.withScope=function(n){var t=this.pushScope();try{n(t)}finally{this.popScope()}},n.prototype.getClient=function(){return this.getStackTop().client},n.prototype.getScope=function(){return this.getStackTop().scope},n.prototype.getStack=function(){return this.X},n.prototype.getStackTop=function(){return this.X[this.X.length-1]},n.prototype.captureException=function(n,t){var r=this.V=g(),i=t;if(!t){var o=void 0;try{throw new Error("Sentry syntheticException")}catch(n){o=n}i={originalException:n,syntheticException:o}}return this.G("captureException",n,e({},i,{event_id:r})),r},n.prototype.captureMessage=function(n,t,r){var i=this.V=g(),o=r;if(!r){var u=void 0;try{throw new Error(n)}catch(n){u=n}o={originalException:n,syntheticException:u}}return this.G("captureMessage",n,t,e({},o,{event_id:i})),i},n.prototype.captureEvent=function(n,t){var r=this.V=g();return this.G("captureEvent",n,e({},t,{event_id:r})),r},n.prototype.lastEventId=function(){return this.V},n.prototype.addBreadcrumb=function(n,t){var r=this.getStackTop();if(r.scope&&r.client){var i=r.client.getOptions&&r.client.getOptions()||{},o=i.beforeBreadcrumb,u=void 0===o?null:o,c=i.maxBreadcrumbs,s=void 0===c?30:c;if(!(s<=0)){var a=(new Date).getTime()/1e3,f=e({timestamp:a},n),h=u?x(function(){return u(f,t)}):f;null!==h&&r.scope.addBreadcrumb(h,Math.min(s,100))}}},n.prototype.setUser=function(n){var t=this.getStackTop();t.scope&&t.scope.setUser(n)},n.prototype.setTags=function(n){var t=this.getStackTop();t.scope&&t.scope.setTags(n)},n.prototype.setExtras=function(n){var t=this.getStackTop();t.scope&&t.scope.setExtras(n)},n.prototype.setTag=function(n,t){var r=this.getStackTop();r.scope&&r.scope.setTag(n,t)},n.prototype.setExtra=function(n,t){var r=this.getStackTop();r.scope&&r.scope.setExtra(n,t)},n.prototype.setContext=function(n,t){var r=this.getStackTop();r.scope&&r.scope.setContext(n,t)},n.prototype.configureScope=function(n){var t=this.getStackTop();t.scope&&t.client&&n(t.scope)},n.prototype.run=function(n){var t=Y(this);try{n(this)}finally{Y(t)}},n.prototype.getIntegration=function(n){var t=this.getClient();if(!t)return null;try{return t.getIntegration(n)}catch(t){return T.warn("Cannot retrieve integration "+n.id+" from the current Hub"),null}},n.prototype.traceHeaders=function(){var n=this.getStackTop();if(n.scope&&n.client){var t=n.scope.getSpan();if(t)return{"sentry-trace":t.toTraceparent()}}return{}},n}();function Q(){var n=w();return n.__SENTRY__=n.__SENTRY__||{hub:void 0},n}function Y(n){var t=Q(),r=rn(t);return en(t,n),r}function nn(){var n,t,r=Q();tn(r)&&!rn(r).isOlderThan(K)||en(r,new Z);try{var e=(n=module,t="domain",n.require(t)).active;if(!e)return rn(r);if(!tn(e)||rn(e).isOlderThan(K)){var i=rn(r).getStackTop();en(e,new Z(i.client,z.clone(i.scope)))}return rn(e)}catch(n){return rn(r)}}function tn(n){return!!(n&&n.__SENTRY__&&n.__SENTRY__.hub)}function rn(n){return n&&n.__SENTRY__&&n.__SENTRY__.hub?n.__SENTRY__.hub:(n.__SENTRY__=n.__SENTRY__||{},n.__SENTRY__.hub=new Z,n.__SENTRY__.hub)}function en(n,t){return!!n&&(n.__SENTRY__=n.__SENTRY__||{},n.__SENTRY__.hub=t,!0)}function on(n){for(var t=[],r=1;r<arguments.length;r++)t[r-1]=arguments[r];var e=nn();if(e&&e[n])return e[n].apply(e,o(t));throw new Error("No hub defined or "+n+" was not found on the hub, please open a bug report.")}function captureException(n){var t;try{throw new Error("Sentry syntheticException")}catch(n){t=n}return on("captureException",n,{originalException:n,syntheticException:t})}function un(n){on("withScope",n)}var cn=/^(?:(\w+):)\/\/(?:(\w+)(?::(\w+))?@)([\w\.-]+)(?::(\d+))?\/(.+)/,sn=function(){function n(n){"string"==typeof n?this.K(n):this.Z(n),this.Y()}return n.prototype.toString=function(n){void 0===n&&(n=!1);var t=this,r=t.host,e=t.path,i=t.pass,o=t.port,u=t.projectId;return t.protocol+"://"+t.user+(n&&i?":"+i:"")+"@"+r+(o?":"+o:"")+"/"+(e?e+"/":e)+u},n.prototype.K=function(n){var t=cn.exec(n);if(!t)throw new f("Invalid Dsn");var r=i(t.slice(1),6),e=r[0],o=r[1],u=r[2],c=void 0===u?"":u,s=r[3],a=r[4],h=void 0===a?"":a,l="",v=r[5],d=v.split("/");d.length>1&&(l=d.slice(0,-1).join("/"),v=d.pop()),Object.assign(this,{host:s,pass:c,path:l,projectId:v,port:h,protocol:e,user:o})},n.prototype.Z=function(n){this.protocol=n.protocol,this.user=n.user,this.pass=n.pass||"",this.host=n.host,this.port=n.port||"",this.path=n.path||"",this.projectId=n.projectId},n.prototype.Y=function(){var n=this;if(["protocol","user","host","projectId"].forEach(function(t){if(!n[t])throw new f("Invalid Dsn")}),"http"!==this.protocol&&"https"!==this.protocol)throw new f("Invalid Dsn");if(this.port&&Number.isNaN(parseInt(this.port,10)))throw new f("Invalid Dsn")},n}(),an=function(){function n(n){this.dsn=n,this.nn=new sn(n)}return n.prototype.getDsn=function(){return this.nn},n.prototype.getStoreEndpoint=function(){return""+this.tn()+this.getStoreEndpointPath()},n.prototype.getStoreEndpointWithUrlEncodedAuth=function(){var n,t={sentry_key:this.nn.user,sentry_version:"7"};return this.getStoreEndpoint()+"?"+(n=t,Object.keys(n).map(function(t){return encodeURIComponent(t)+"="+encodeURIComponent(n[t])}).join("&"))},n.prototype.tn=function(){var n=this.nn,t=n.protocol?n.protocol+":":"",r=n.port?":"+n.port:"";return t+"//"+n.host+r},n.prototype.getStoreEndpointPath=function(){var n=this.nn;return(n.path?"/"+n.path:"")+"/api/"+n.projectId+"/store/"},n.prototype.getRequestHeaders=function(n,t){var r=this.nn,e=["Sentry sentry_version=7"];return e.push("sentry_timestamp="+(new Date).getTime()),e.push("sentry_client="+n+"/"+t),e.push("sentry_key="+r.user),r.pass&&e.push("sentry_secret="+r.pass),{"Content-Type":"application/json","X-Sentry-Auth":e.join(", ")}},n.prototype.getReportDialogEndpoint=function(n){void 0===n&&(n={});var t=this.nn,r=this.tn()+(t.path?"/"+t.path:"")+"/api/embed/error-page/",e=[];for(var i in e.push("dsn="+t.toString()),n)if("user"===i){if(!n.user)continue;n.user.name&&e.push("name="+encodeURIComponent(n.user.name)),n.user.email&&e.push("email="+encodeURIComponent(n.user.email))}else e.push(encodeURIComponent(i)+"="+encodeURIComponent(n[i]));return e.length?r+"?"+e.join("&"):r},n}(),fn=[];function hn(n){var t={};return function(n){var t=n.defaultIntegrations&&o(n.defaultIntegrations)||[],r=n.integrations,e=[];if(Array.isArray(r)){var i=r.map(function(n){return n.name}),u=[];t.forEach(function(n){-1===i.indexOf(n.name)&&-1===u.indexOf(n.name)&&(e.push(n),u.push(n.name))}),r.forEach(function(n){-1===u.indexOf(n.name)&&(e.push(n),u.push(n.name))})}else{if("function"!=typeof r)return o(t);e=r(t),e=Array.isArray(e)?e:[e]}return e}(n).forEach(function(n){t[n.name]=n,function(n){-1===fn.indexOf(n.name)&&(n.setupOnce(V,nn),fn.push(n.name),T.log("Integration installed: "+n.name))}(n)}),t}var ln,vn=function(){function n(n,t){this.rn={},this.en=!1,this.in=new n(t),this.on=t,t.dsn&&(this.un=new sn(t.dsn)),this.cn()&&(this.rn=hn(this.on))}return n.prototype.captureException=function(n,t,r){var e=this,i=t&&t.event_id;return this.en=!0,this.sn().eventFromException(n,t).then(function(n){return e.an(n,t,r)}).then(function(n){i=n&&n.event_id,e.en=!1}).catch(function(n){T.error(n),e.en=!1}),i},n.prototype.captureMessage=function(n,t,r,e){var i=this,o=r&&r.event_id;return this.en=!0,(p(n)?this.sn().eventFromMessage(""+n,t,r):this.sn().eventFromException(n,r)).then(function(n){return i.an(n,r,e)}).then(function(n){o=n&&n.event_id,i.en=!1}).catch(function(n){T.error(n),i.en=!1}),o},n.prototype.captureEvent=function(n,t,r){var e=this,i=t&&t.event_id;return this.en=!0,this.an(n,t,r).then(function(n){i=n&&n.event_id,e.en=!1}).catch(function(n){T.error(n),e.en=!1}),i},n.prototype.getDsn=function(){return this.un},n.prototype.getOptions=function(){return this.on},n.prototype.flush=function(n){var t=this;return this.fn(n).then(function(r){return clearInterval(r.interval),t.sn().getTransport().close(n).then(function(n){return r.ready&&n})})},n.prototype.close=function(n){var t=this;return this.flush(n).then(function(n){return t.getOptions().enabled=!1,n})},n.prototype.getIntegrations=function(){return this.rn||{}},n.prototype.getIntegration=function(n){try{return this.rn[n.id]||null}catch(t){return T.warn("Cannot retrieve integration "+n.id+" from the current Client"),null}},n.prototype.fn=function(n){var t=this;return new Promise(function(r){var e=0,i=0;clearInterval(i),i=setInterval(function(){t.en?(e+=1,n&&e>=n&&r({interval:i,ready:!1})):r({interval:i,ready:!0})},1)})},n.prototype.sn=function(){return this.in},n.prototype.cn=function(){return!1!==this.getOptions().enabled&&void 0!==this.un},n.prototype.hn=function(n,t,r){var i=this.getOptions(),o=i.environment,u=i.release,c=i.dist,s=i.maxValueLength,a=void 0===s?250:s,f=e({},n);void 0===f.environment&&void 0!==o&&(f.environment=o),void 0===f.release&&void 0!==u&&(f.release=u),void 0===f.dist&&void 0!==c&&(f.dist=c),f.message&&(f.message=F(f.message,a));var h=f.exception&&f.exception.values&&f.exception.values[0];h&&h.value&&(h.value=F(h.value,a));var l=f.request;l&&l.url&&(l.url=F(l.url,a)),void 0===f.event_id&&(f.event_id=g()),this.ln(f.sdk);var v=B.resolve(f);return t&&(v=t.applyToEvent(f,r)),v},n.prototype.ln=function(n){var t=Object.keys(this.rn);n&&t.length>0&&(n.integrations=t)},n.prototype.an=function(n,t,r){var e=this,i=this.getOptions(),o=i.beforeSend,u=i.sampleRate;return this.cn()?"number"==typeof u&&Math.random()>u?B.reject("This event has been sampled, will not send event."):new B(function(i,u){e.hn(n,r,t).then(function(n){if(null!==n){var r=n;try{if(t&&t.data&&!0===t.data.__sentry__||!o)return e.sn().sendEvent(r),void i(r);var c=o(n,t);if(void 0===c)T.error("`beforeSend` method has to return `null` or a valid event.");else if(y(c))e.vn(c,i,u);else{if(null===(r=c))return T.log("`beforeSend` returned `null`, will not send event."),void i(null);e.sn().sendEvent(r),i(r)}}catch(n){e.captureException(n,{data:{__sentry__:!0},originalException:n}),u("`beforeSend` throw an error, will not send event.")}}else u("An event processor returned null, will not send event.")})}):B.reject("SDK not enabled, will not send event.")},n.prototype.vn=function(n,t,r){var e=this;n.then(function(n){null!==n?(e.sn().sendEvent(n),t(n)):r("`beforeSend` returned `null`, will not send event.")}).catch(function(n){r("beforeSend rejected with "+n)})},n}(),dn=function(){function t(){}return t.prototype.sendEvent=function(t){return Promise.resolve({reason:"NoopTransport: Event has been skipped because no Dsn is configured.",status:n.Status.Skipped})},t.prototype.close=function(n){return Promise.resolve(!0)},t}(),pn=function(){function n(n){this.on=n,this.on.dsn||T.warn("No DSN provided, backend will not do anything."),this.dn=this.pn()}return n.prototype.pn=function(){return new dn},n.prototype.eventFromException=function(n,t){throw new f("Backend has to implement `eventFromException` method")},n.prototype.eventFromMessage=function(n,t,r){throw new f("Backend has to implement `eventFromMessage` method")},n.prototype.sendEvent=function(n){this.dn.sendEvent(n).catch(function(n){T.error("Error while sending event: "+n)})},n.prototype.getTransport=function(){return this.dn},n}();var mn=function(){function n(){this.name=n.id}return n.prototype.setupOnce=function(){ln=Function.prototype.toString,Function.prototype.toString=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];var r=this.__sentry__?this.__sentry_original__:this;return ln.apply(r,n)}},n.id="FunctionToString",n}(),yn=[/^Script error\.?$/,/^Javascript error: Script error\.? on line 0$/],bn=function(){function n(t){void 0===t&&(t={}),this.on=t,this.name=n.id}return n.prototype.setupOnce=function(){V(function(t){var r=nn();if(!r)return t;var e=r.getIntegration(n);if(e){var i=r.getClient(),o=i?i.getOptions():{},u=e.mn(o);if(e.yn(t,u))return null}return t})},n.prototype.yn=function(n,t){return this.bn(n,t)?(T.warn("Event dropped due to being internal Sentry Error.\nEvent: "+j(n)),!0):this.wn(n,t)?(T.warn("Event dropped due to being matched by `ignoreErrors` option.\nEvent: "+j(n)),!0):this.gn(n,t)?(T.warn("Event dropped due to being matched by `blacklistUrls` option.\nEvent: "+j(n)+".\nUrl: "+this.En(n)),!0):!this.jn(n,t)&&(T.warn("Event dropped due to not being matched by `whitelistUrls` option.\nEvent: "+j(n)+".\nUrl: "+this.En(n)),!0)},n.prototype.bn=function(n,t){if(void 0===t&&(t={}),!t.ignoreInternal)return!1;try{return"SentryError"===n.exception.values[0].type}catch(n){return!1}},n.prototype.wn=function(n,t){return void 0===t&&(t={}),!(!t.ignoreErrors||!t.ignoreErrors.length)&&this.xn(n).some(function(n){return t.ignoreErrors.some(function(t){return q(n,t)})})},n.prototype.gn=function(n,t){if(void 0===t&&(t={}),!t.blacklistUrls||!t.blacklistUrls.length)return!1;var r=this.En(n);return!!r&&t.blacklistUrls.some(function(n){return q(r,n)})},n.prototype.jn=function(n,t){if(void 0===t&&(t={}),!t.whitelistUrls||!t.whitelistUrls.length)return!0;var r=this.En(n);return!r||t.whitelistUrls.some(function(n){return q(r,n)})},n.prototype.mn=function(n){return void 0===n&&(n={}),{blacklistUrls:o(this.on.blacklistUrls||[],n.blacklistUrls||[]),ignoreErrors:o(this.on.ignoreErrors||[],n.ignoreErrors||[],yn),ignoreInternal:void 0===this.on.ignoreInternal||this.on.ignoreInternal,whitelistUrls:o(this.on.whitelistUrls||[],n.whitelistUrls||[])}},n.prototype.xn=function(n){if(n.message)return[n.message];if(n.exception)try{var t=n.exception.values[0],r=t.type,e=t.value;return[""+e,r+": "+e]}catch(t){return T.error("Cannot extract message for event "+j(n)),[]}return[]},n.prototype.En=function(n){try{if(n.stacktrace){var t=n.stacktrace.frames;return t[t.length-1].filename}if(n.exception){var r=n.exception.values[0].stacktrace.frames;return r[r.length-1].filename}return null}catch(t){return T.error("Cannot extract url for event "+j(n)),null}},n.id="InboundFilters",n}(),wn=Object.freeze({FunctionToString:mn,InboundFilters:bn}),gn=w(),En={_n:!1,Sn:!1,On:!1,kn:!1},jn="?",xn=/^(?:[Uu]ncaught (?:exception: )?)?(?:((?:Eval|Internal|Range|Reference|Syntax|Type|URI|)Error): )?(.*)$/;function _n(n,t){return Object.prototype.hasOwnProperty.call(n,t)}function Sn(){return"undefined"==typeof document||null==document.location?"":document.location.href}En._n=function(){var n,t,r=[],i=null,o=null;function u(n,t,e){var i=null;if(!t||En.Sn){for(var o in r)if(_n(r,o))try{r[o](n,t,e)}catch(n){i=n}if(i)throw i}}function c(t,r,i,c,s){var f=null;if(s=l(s)?s.error:s,t=l(t)?t.message:t,o)En.On.Tn(o,r,i,t),a();else if(s&&h(s))(f=En.On(s)).mechanism="onerror",u(f,!0,s);else{var v,d={url:r,line:i,column:c},p=t;if("[object String]"==={}.toString.call(t)){var m=t.match(xn);m&&(v=m[1],p=m[2])}d.func=jn,d.context=null,u(f={name:v,message:p,mode:"onerror",mechanism:"onerror",stack:[e({},d,{url:d.url||Sn()})]},!0,null)}return!!n&&n.apply(this,arguments)}function s(n){var t=n;try{t=n&&"reason"in n?n.reason:n}catch(n){}var r=En.On(t);r.mechanism="onunhandledrejection",u(r,!0,t)}function a(){var n=o,t=i;o=null,i=null,u(n,!1,t)}function f(n){if(o){if(i===n)return;a()}var t=En.On(n);throw o=t,i=n,setTimeout(function(){i===n&&a()},t.incomplete?2e3:0),n}return f.Rn=function(n){r.push(n)},f.Dn=function(){!0!==t&&(n=gn.onerror,gn.onerror=c,t=!0)},f.In=function(){gn.onunhandledrejection=s},f}(),En.On=function(){function n(n){if(!n||!n.stack)return null;for(var t,r,e,i=/^\s*at (?:(.*?) ?\()?((?:file|https?|blob|chrome-extension|native|eval|webpack|<anonymous>|[-a-z]+:|\/).*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,o=/^\s*(.*?)(?:\((.*?)\))?(?:^|@)?((?:file|https?|blob|chrome|webpack|resource|moz-extension).*?:\/.*?|\[native code\]|[^@]*(?:bundle|\d+\.js))(?::(\d+))?(?::(\d+))?\s*$/i,u=/^\s*at (?:((?:\[object object\])?.+) )?\(?((?:file|ms-appx|https?|webpack|blob):.*?):(\d+)(?::(\d+))?\)?\s*$/i,c=/(\S+) line (\d+)(?: > eval line \d+)* > eval/i,s=/\((\S*)(?::(\d+))(?::(\d+))\)/,a=n.stack.split("\n"),f=[],h=/^(.*) is undefined$/.exec(n.message),l=0,v=a.length;l<v;++l){if(r=i.exec(a[l])){var d=r[2]&&0===r[2].indexOf("native");r[2]&&0===r[2].indexOf("eval")&&(t=s.exec(r[2]))&&(r[2]=t[1],r[3]=t[2],r[4]=t[3]),e={url:r[2],func:r[1]||jn,args:d?[r[2]]:[],line:r[3]?+r[3]:null,column:r[4]?+r[4]:null}}else if(r=u.exec(a[l]))e={url:r[2],func:r[1]||jn,args:[],line:+r[3],column:r[4]?+r[4]:null};else{if(!(r=o.exec(a[l])))continue;r[3]&&r[3].indexOf(" > eval")>-1&&(t=c.exec(r[3]))?(r[1]=r[1]||"eval",r[3]=t[1],r[4]=t[2],r[5]=""):0!==l||r[5]||void 0===n.columnNumber||(f[0].column=n.columnNumber+1),e={url:r[3],func:r[1]||jn,args:r[2]?r[2].split(","):[],line:r[4]?+r[4]:null,column:r[5]?+r[5]:null}}!e.func&&e.line&&(e.func=jn),e.context=null,f.push(e)}return f.length?(f[0]&&f[0].line&&!f[0].column&&h&&(f[0].column=null),{mode:"stack",name:n.name,message:n.message,stack:f}):null}function t(n,t,r,e){var i={url:t,line:r};if(i.url&&i.line){if(n.incomplete=!1,i.func||(i.func=jn),i.context||(i.context=null),/ '([^']+)' /.exec(e)&&(i.column=null),n.stack.length>0&&n.stack[0].url===i.url){if(n.stack[0].line===i.line)return!1;if(!n.stack[0].line&&n.stack[0].func===i.func)return n.stack[0].line=i.line,n.stack[0].context=i.context,!1}return n.stack.unshift(i),n.partial=!0,!0}return n.incomplete=!0,!1}function r(n,e){for(var i,o,u=/function\s+([_$a-zA-Z\xA0-\uFFFF][_$a-zA-Z0-9\xA0-\uFFFF]*)?\s*\(/i,c=[],s={},a=!1,f=r.caller;f&&!a;f=f.caller)if(f!==Rn&&f!==En._n){if(o={url:null,func:jn,args:[],line:null,column:null},f.name?o.func=f.name:(i=u.exec(f.toString()))&&(o.func=i[1]),void 0===o.func)try{o.func=i.input.substring(0,i.input.indexOf("{"))}catch(n){}s[""+f]?a=!0:s[""+f]=!0,c.push(o)}e&&c.splice(0,e);var h={mode:"callers",name:n.name,message:n.message,stack:c};return t(h,n.sourceURL||n.fileName,n.line||n.lineNumber,n.message||n.description),h}function i(t,e){var i=null,u=t&&t.framesToPop;e=null==e?0:+e;try{if(i=function(n){var t=n.stacktrace;if(t){for(var r,e=/ line (\d+).*script (?:in )?(\S+)(?:: in function (\S+))?$/i,i=/ line (\d+), column (\d+)\s*(?:in (?:<anonymous function: ([^>]+)>|([^\)]+))\((.*)\))? in (.*):\s*$/i,o=t.split("\n"),u=[],c=0;c<o.length;c+=2){var s=null;(r=e.exec(o[c]))?s={url:r[2],line:+r[1],column:null,func:r[3],args:[]}:(r=i.exec(o[c]))&&(s={url:r[6],line:+r[1],column:+r[2],func:r[3]||r[4],args:r[5]?r[5].split(","):[]}),s&&(!s.func&&s.line&&(s.func=jn),s.line&&(s.context=null),s.context||(s.context=[o[c+1]]),u.push(s))}return u.length?{mode:"stacktrace",name:n.name,message:n.message,stack:u}:null}}(t))return o(i,u)}catch(n){}try{if(i=n(t))return o(i,u)}catch(n){}try{if(i=function(n){var t=n.message.split("\n");if(t.length<4)return null;var r,e=/^\s*Line (\d+) of linked script ((?:file|https?|blob)\S+)(?:: in function (\S+))?\s*$/i,i=/^\s*Line (\d+) of inline#(\d+) script in ((?:file|https?|blob)\S+)(?:: in function (\S+))?\s*$/i,o=/^\s*Line (\d+) of function script\s*$/i,u=[],c=gn&&gn.document&&gn.document.getElementsByTagName("script"),s=[];for(var a in c)_n(c,a)&&!c[a].src&&s.push(c[a]);for(var f=2;f<t.length;f+=2){var h=null;(r=e.exec(t[f]))?h={url:r[2],func:r[3],args:[],line:+r[1],column:null}:(r=i.exec(t[f]))?h={url:r[3],func:r[4],args:[],line:+r[1],column:null}:(r=o.exec(t[f]))&&(h={url:Sn().replace(/#.*$/,""),func:"",args:[],line:r[1],column:null}),h&&(h.func||(h.func=jn),h.context=[t[f+1]],u.push(h))}return u.length?{mode:"multiline",name:n.name,message:t[0],stack:u}:null}(t))return o(i,u)}catch(n){}try{if(i=r(t,e+1))return o(i,u)}catch(n){}return{original:t,name:t&&t.name,message:t&&t.message,mode:"failed"}}function o(n,t){if(Number.isNaN(t))return n;try{return e({},n,{stack:n.stack.slice(t)})}catch(t){return n}}return i.Tn=t,i.Nn=n,i}(),En.Sn=!0,En.kn=11;var On=En._n.Rn,kn=En._n.Dn,Tn=En._n.In,Rn=En.On,Dn=50;function In(n){var t=Cn(n.stack),r={type:n.name,value:n.message};return t&&t.length&&(r.stacktrace={frames:t}),void 0===r.type&&""===r.value&&(r.value="Unrecoverable error caught"),r}function Nn(n){return{exception:{values:[In(n)]}}}function Cn(n){if(!n||!n.length)return[];var t=n,r=t[0].func||"",e=t[t.length-1].func||"";return(r.includes("captureMessage")||r.includes("captureException"))&&(t=t.slice(1)),e.includes("sentryWrapped")&&(t=t.slice(0,-1)),t.map(function(n){return{colno:n.column,filename:n.url||t[0].url,function:n.func||"?",in_app:!0,lineno:n.line}}).slice(0,Dn).reverse()}var An,Un,Ln=function(){function n(n){this.options=n,this.h=new M(30),this.url=new an(this.options.dsn).getStoreEndpointWithUrlEncodedAuth()}return n.prototype.sendEvent=function(n){throw new f("Transport Class has to implement `sendEvent` method")},n.prototype.close=function(n){return this.h.drain(n)},n}(),Mn=w(),Fn=function(t){function e(){return null!==t&&t.apply(this,arguments)||this}return r(e,t),e.prototype.sendEvent=function(t){var r={body:JSON.stringify(t),method:"POST",referrerPolicy:W()?"origin":""};return this.h.add(Mn.fetch(this.url,r).then(function(t){return{status:n.Status.fromHttpCode(t.status)}}))},e}(Ln),Pn=function(t){function e(){return null!==t&&t.apply(this,arguments)||this}return r(e,t),e.prototype.sendEvent=function(t){var r=this;return this.h.add(new Promise(function(e,i){var o=new XMLHttpRequest;o.onreadystatechange=function(){4===o.readyState&&(200===o.status&&e({status:n.Status.fromHttpCode(o.status)}),i(o))},o.open("POST",r.url),o.send(JSON.stringify(t))}))},e}(Ln),$n=Object.freeze({BaseTransport:Ln,FetchTransport:Fn,XHRTransport:Pn}),qn=function(t){function i(){return null!==t&&t.apply(this,arguments)||this}return r(i,t),i.prototype.pn=function(){if(!this.on.dsn)return t.prototype.pn.call(this);var n=e({},this.on.transportOptions,{dsn:this.on.dsn});return this.on.transport?new this.on.transport(n):H()?new Fn(n):new Pn(n)},i.prototype.eventFromException=function(t,r){var e,i,o=this;if(l(t)&&t.error)return t=t.error,e=Nn(Rn(t)),B.resolve(this.Cn(e,r));if(v(t)||(i=t,"[object DOMException]"===Object.prototype.toString.call(i))){var u=t,c=u.name||(v(u)?"DOMError":"DOMException"),s=u.message?c+": "+u.message:c;return this.eventFromMessage(s,n.Severity.Error,r).then(function(n){return _(n,s),B.resolve(o.Cn(n,r))})}if(h(t))return e=Nn(Rn(t)),B.resolve(this.Cn(e,r));if(m(t)&&r&&r.syntheticException)return _(e=function(n,t){var r=Object.keys(n).sort(),e={extra:{__serialized__:N(n)},message:"Non-Error exception captured with keys: "+$(r)};if(t){var i=Cn(Rn(t).stack);e.stacktrace={frames:i}}return e}(t,r.syntheticException),"Custom Object",void 0,{handled:!0,synthetic:!0,type:"generic"}),e.level=n.Severity.Error,B.resolve(this.Cn(e,r));var a=t;return this.eventFromMessage(a,void 0,r).then(function(t){return _(t,""+a,void 0,{handled:!0,synthetic:!0,type:"generic"}),t.level=n.Severity.Error,B.resolve(o.Cn(t,r))})},i.prototype.Cn=function(n,t){return e({},n,{event_id:t&&t.event_id})},i.prototype.eventFromMessage=function(t,r,e){void 0===r&&(r=n.Severity.Info);var i={event_id:e&&e.event_id,level:r,message:t};if(this.on.attachStacktrace&&e&&e.syntheticException){var o=Cn(Rn(e.syntheticException).stack);i.stacktrace={frames:o}}return B.resolve(i)},i}(pn),Hn="sentry.javascript.browser",Wn=function(n){function t(t){return void 0===t&&(t={}),n.call(this,qn,t)||this}return r(t,n),t.prototype.hn=function(t,r,i){return t.platform=t.platform||"javascript",t.sdk=e({},t.sdk,{name:Hn,packages:o(t.sdk&&t.sdk.packages||[],[{name:"npm:@sentry/browser",version:"5.6.3"}]),version:"5.6.3"}),n.prototype.hn.call(this,t,r,i)},t.prototype.showReportDialog=function(n){void 0===n&&(n={});var t=w().document;if(t)if(this.cn()){var r=n.dsn||this.getDsn();if(n.eventId)if(r){var e=t.createElement("script");e.async=!0,e.src=new an(r).getReportDialogEndpoint(n),n.onLoad&&(e.onload=n.onLoad),(t.head||t.body).appendChild(e)}else T.error("Missing `Dsn` option in showReportDialog call");else T.error("Missing `eventId` option in showReportDialog call")}else T.error("Trying to call showReportDialog with Sentry Client is disabled")},t}(vn),Bn=1e3,Jn=0;function Xn(n,t,r){if(void 0===t&&(t={}),"function"!=typeof n)return n;try{if(n.__sentry__)return n;if(n.__sentry_wrapped__)return n.__sentry_wrapped__}catch(t){return n}var sentryWrapped=function(){r&&"function"==typeof r&&r.apply(this,arguments);var i=Array.prototype.slice.call(arguments);try{var o=i.map(function(n){return Xn(n,t)});return n.handleEvent?n.handleEvent.apply(this,o):n.apply(this,o)}catch(n){throw Jn+=1,setTimeout(function(){Jn-=1}),un(function(r){r.addEventProcessor(function(n){var r=e({},n);return t.mechanism&&_(r,void 0,void 0,t.mechanism),r.extra=e({},r.extra,{arguments:U(i,3)}),r}),captureException(n)}),n}};try{for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(sentryWrapped[i]=n[i])}catch(n){}n.prototype=n.prototype||{},sentryWrapped.prototype=n.prototype,Object.defineProperty(n,"__sentry_wrapped__",{enumerable:!1,value:sentryWrapped}),Object.defineProperties(sentryWrapped,{__sentry__:{enumerable:!1,value:!0},__sentry_original__:{enumerable:!1,value:n}});try{Object.getOwnPropertyDescriptor(sentryWrapped,"name").configurable&&Object.defineProperty(sentryWrapped,"name",{get:function(){return n.name}})}catch(n){}return sentryWrapped}var zn=0;function Gn(n,t){return void 0===t&&(t=!1),function(r){if(An=void 0,r&&Un!==r){Un=r;var e=function(){var t;try{t=r.target?Kn(r.target):Kn(r)}catch(n){t="<unknown>"}0!==t.length&&nn().addBreadcrumb({category:"ui."+n,message:t},{event:r,name:n})};zn&&clearTimeout(zn),t?zn=setTimeout(e):e()}}}function Vn(){return function(n){var t;try{t=n.target}catch(n){return}var r=t&&t.tagName;r&&("INPUT"===r||"TEXTAREA"===r||t.isContentEditable)&&(An||Gn("input")(n),clearTimeout(An),An=setTimeout(function(){An=void 0},Bn))}}function Kn(n){for(var t,r=n,e=[],i=0,o=0,u=" > ".length;r&&i++<5&&!("html"===(t=Zn(r))||i>1&&o+e.length*u+t.length>=80);)e.push(t),o+=t.length,r=r.parentNode;return e.reverse().join(" > ")}function Zn(n){var t,r,e,i,o,u=[];if(!n||!n.tagName)return"";if(u.push(n.tagName.toLowerCase()),n.id&&u.push("#"+n.id),(t=n.className)&&d(t))for(r=t.split(/\s+/),o=0;o<r.length;o++)u.push("."+r[o]);var c=["type","name","title","alt"];for(o=0;o<c.length;o++)e=c[o],(i=n.getAttribute(e))&&u.push("["+e+'="'+i+'"]');return u.join("")}var Qn=function(){function t(n){this.name=t.id,this.on=e({onerror:!0,onunhandledrejection:!0},n)}return t.prototype.setupOnce=function(){Error.stackTraceLimit=50,On(function(n,r,e){var i=e&&!0===e.__sentry_own_request__;if(!(Jn>0||i)){var o=nn().getIntegration(t);o&&nn().captureEvent(o.An(n,e),{data:{stack:n},originalException:e})}}),this.on.onerror&&(T.log("Global Handler attached: onerror"),kn()),this.on.onunhandledrejection&&(T.log("Global Handler attached: onunhandledrejection"),Tn())},t.prototype.An=function(n,t){if(!d(n.message)&&"onunhandledrejection"!==n.mechanism){var r=n.message;n.message=r.error&&d(r.error.message)?r.error.message:"No error message"}if("onunhandledrejection"===n.mechanism&&(n.incomplete||"failed"===n.mode))return this.Un(n,t);var e=Nn(n),i={mode:n.mode};n.message&&(i.message=n.message),n.name&&(i.name=n.name);var o=nn().getClient(),u=o&&o.getOptions().maxValueLength||250;return _(e,n.original?F(JSON.stringify(U(n.original)),u):"","onunhandledrejection"===n.mechanism?"UnhandledRejection":"Error",{data:i,handled:!1,type:n.mechanism}),e},t.prototype.Un=function(t,r){var i={level:n.Severity.Error};return p(r)?i.exception={values:[{type:"UnhandledRejection",value:"Non-Error promise rejection captured with value: "+r}]}:(i.exception={values:[{type:"UnhandledRejection",value:"Non-Error promise rejection captured with keys: "+$(Object.keys(r).sort())}]},i.extra={__serialized__:N(r)}),i.exception.values&&i.exception.values[0]&&(i.exception.values[0].mechanism={data:e({mode:t.mode},t.incomplete&&{incomplete:t.incomplete},t.message&&{message:t.message},t.name&&{name:t.name}),handled:!1,type:t.mechanism}),i},t.id="GlobalHandlers",t}(),Yn=function(){function n(){this.Ln=0,this.name=n.id}return n.prototype.Mn=function(n){return function(){for(var t=[],r=0;r<arguments.length;r++)t[r]=arguments[r];var e=t[0];return t[0]=Xn(e,{mechanism:{data:{function:nt(n)},handled:!0,type:"instrument"}}),n.apply(this,t)}},n.prototype.Fn=function(n){return function(t){return n(Xn(t,{mechanism:{data:{function:"requestAnimationFrame",handler:nt(n)},handled:!0,type:"instrument"}}))}},n.prototype.Pn=function(n){var t=w(),r=t[n]&&t[n].prototype;r&&r.hasOwnProperty&&r.hasOwnProperty("addEventListener")&&(D(r,"addEventListener",function(t){return function(r,e,i){try{"function"==typeof e.handleEvent&&(e.handleEvent=Xn(e.handleEvent.bind(e),{mechanism:{data:{function:"handleEvent",handler:nt(e),target:n},handled:!0,type:"instrument"}}))}catch(n){}return t.call(this,r,Xn(e,{mechanism:{data:{function:"addEventListener",handler:nt(e),target:n},handled:!0,type:"instrument"}}),i)}}),D(r,"removeEventListener",function(n){return function(t,r,e){var i=r;try{i=i&&(i.__sentry_wrapped__||i)}catch(n){}return n.call(this,t,i,e)}}))},n.prototype.setupOnce=function(){this.Ln=this.Ln;var n=w();D(n,"setTimeout",this.Mn.bind(this)),D(n,"setInterval",this.Mn.bind(this)),D(n,"requestAnimationFrame",this.Fn.bind(this)),["EventTarget","Window","Node","ApplicationCache","AudioTrackList","ChannelMergerNode","CryptoOperation","EventSource","FileReader","HTMLUnknownElement","IDBDatabase","IDBRequest","IDBTransaction","KeyOperation","MediaController","MessagePort","ModalWindow","Notification","SVGElementInstance","Screen","TextTrack","TextTrackCue","TextTrackList","WebSocket","WebSocketWorker","Worker","XMLHttpRequest","XMLHttpRequestEventTarget","XMLHttpRequestUpload"].forEach(this.Pn.bind(this))},n.id="TryCatch",n}();function nt(n){try{return n&&n.name||"<anonymous>"}catch(n){return"<anonymous>"}}var tt,rt=w(),et=function(){function t(n){this.name=t.id,this.on=e({console:!0,dom:!0,fetch:!0,history:!0,sentry:!0,xhr:!0},n)}return t.prototype.$n=function(){"console"in rt&&["debug","info","warn","error","log","assert"].forEach(function(r){r in rt.console&&D(rt.console,r,function(e){return function(){for(var i=[],o=0;o<arguments.length;o++)i[o]=arguments[o];var u={category:"console",data:{extra:{arguments:U(i,3)},logger:"console"},level:n.Severity.fromString(r),message:P(i," ")};"assert"===r&&!1===i[0]&&(u.message="Assertion failed: "+(P(i.slice(1)," ")||"console.assert"),u.data.extra.arguments=U(i.slice(1),3)),t.addBreadcrumb(u,{input:i,level:r}),e&&Function.prototype.apply.call(e,rt.console,i)}})})},t.prototype.qn=function(){"document"in rt&&(rt.document.addEventListener("click",Gn("click"),!1),rt.document.addEventListener("keypress",Vn(),!1),["EventTarget","Node"].forEach(function(n){var t=rt[n]&&rt[n].prototype;t&&t.hasOwnProperty&&t.hasOwnProperty("addEventListener")&&(D(t,"addEventListener",function(n){return function(t,r,e){return r&&r.handleEvent?("click"===t&&D(r,"handleEvent",function(n){return function(t){return Gn("click")(t),n.call(this,t)}}),"keypress"===t&&D(r,"handleEvent",function(n){return function(t){return Vn()(t),n.call(this,t)}})):("click"===t&&Gn("click",!0)(this),"keypress"===t&&Vn()(this)),n.call(this,t,r,e)}}),D(t,"removeEventListener",function(n){return function(t,r,e){var i=r;try{i=i&&(i.__sentry_wrapped__||i)}catch(n){}return n.call(this,t,i,e)}}))}))},t.prototype.Hn=function(){(function(){if(!H())return!1;var n=function(n){return-1!==n.toString().indexOf("native")},t=w(),r=null,e=t.document;if(e){var i=e.createElement("iframe");i.hidden=!0;try{e.head.appendChild(i),i.contentWindow&&i.contentWindow.fetch&&(r=n(i.contentWindow.fetch)),e.head.removeChild(i)}catch(n){T.warn("Could not create sandbox iframe for pure fetch check, bailing to window.fetch: ",n)}}return null===r&&(r=n(t.fetch)),r})()&&D(rt,"fetch",function(r){return function(){for(var e=[],i=0;i<arguments.length;i++)e[i]=arguments[i];var o,u=e[0],c="GET";"string"==typeof u?o=u:"Request"in rt&&u instanceof Request?(o=u.url,u.method&&(c=u.method)):o=String(u),e[1]&&e[1].method&&(c=e[1].method);var s=nn().getClient(),a=s&&s.getDsn();if(a){var f=new an(a).getStoreEndpoint();if(f&&o.includes(f))return"POST"===c&&e[1]&&e[1].body&&it(e[1].body),r.apply(rt,e)}var h={method:d(c)?c.toUpperCase():c,url:o};return r.apply(rt,e).then(function(n){return h.status_code=n.status,t.addBreadcrumb({category:"fetch",data:h,type:"http"},{input:e,response:n}),n}).catch(function(r){throw t.addBreadcrumb({category:"fetch",data:h,level:n.Severity.Error,type:"http"},{error:r,input:e}),r})}})},t.prototype.Wn=function(){var n=this;if(r=w(),e=r.chrome,i=e&&e.app&&e.app.runtime,o="history"in r&&!!r.history.pushState&&!!r.history.replaceState,!i&&o){var r,e,i,o,u=function(n,r){var e=E(rt.location.href),i=E(r),o=E(n);o.path||(o=e),tt=r,e.protocol===i.protocol&&e.host===i.host&&(r=i.relative),e.protocol===o.protocol&&e.host===o.host&&(n=o.relative),t.addBreadcrumb({category:"navigation",data:{from:n,to:r}})},c=rt.onpopstate;rt.onpopstate=function(){for(var t=[],r=0;r<arguments.length;r++)t[r]=arguments[r];var e=rt.location.href;if(u(tt,e),c)return c.apply(n,t)},D(rt.history,"pushState",s),D(rt.history,"replaceState",s)}function s(n){return function(){for(var t=[],r=0;r<arguments.length;r++)t[r]=arguments[r];var e=t.length>2?t[2]:void 0;return e&&u(tt,String(e)),n.apply(this,t)}}},t.prototype.Bn=function(){if("XMLHttpRequest"in rt){var n=XMLHttpRequest.prototype;D(n,"open",function(n){return function(){for(var t=[],r=0;r<arguments.length;r++)t[r]=arguments[r];var e=t[1];this.__sentry_xhr__={method:d(t[0])?t[0].toUpperCase():t[0],url:t[1]};var i=nn().getClient(),o=i&&i.getDsn();if(o){var u=new an(o).getStoreEndpoint();d(e)&&u&&e.includes(u)&&(this.__sentry_own_request__=!0)}return n.apply(this,t)}}),D(n,"send",function(n){return function(){for(var r=[],e=0;e<arguments.length;e++)r[e]=arguments[e];var i=this;function o(){if(4===i.readyState){if(i.__sentry_own_request__)return;try{i.__sentry_xhr__&&(i.__sentry_xhr__.status_code=i.status)}catch(n){}t.addBreadcrumb({category:"xhr",data:i.__sentry_xhr__,type:"http"},{xhr:i})}}return i.__sentry_own_request__&&it(r[0]),["onload","onerror","onprogress"].forEach(function(n){!function(n,t){n in t&&"function"==typeof t[n]&&D(t,n,function(t){return Xn(t,{mechanism:{data:{function:n,handler:t&&t.name||"<anonymous>"},handled:!0,type:"instrument"}})})}(n,i)}),"onreadystatechange"in i&&"function"==typeof i.onreadystatechange?D(i,"onreadystatechange",function(n){return Xn(n,{mechanism:{data:{function:"onreadystatechange",handler:n&&n.name||"<anonymous>"},handled:!0,type:"instrument"}},o)}):i.onreadystatechange=o,n.apply(this,r)}})}},t.addBreadcrumb=function(n,r){nn().getIntegration(t)&&nn().addBreadcrumb(n,r)},t.prototype.setupOnce=function(){this.on.console&&this.$n(),this.on.dom&&this.qn(),this.on.xhr&&this.Bn(),this.on.fetch&&this.Hn(),this.on.history&&this.Wn()},t.id="Breadcrumbs",t}();function it(t){try{var r=JSON.parse(t);et.addBreadcrumb({category:"sentry",event_id:r.event_id,level:r.level||n.Severity.fromString("error"),message:j(r)},{event:r})}catch(n){T.error("Error while adding sentry type breadcrumb")}}var ot="cause",ut=5,ct=function(){function n(t){void 0===t&&(t={}),this.name=n.id,this.Jn=t.key||ot,this.s=t.limit||ut}return n.prototype.setupOnce=function(){V(function(t,r){var e=nn().getIntegration(n);return e?e.Xn(t,r):t})},n.prototype.Xn=function(n,t){if(!(n.exception&&n.exception.values&&t&&t.originalException instanceof Error))return n;var r=this.zn(t.originalException,this.Jn);return n.exception.values=o(r,n.exception.values),n},n.prototype.zn=function(n,t,r){if(void 0===r&&(r=[]),!(n[t]instanceof Error)||r.length+1>=this.s)return r;var e=In(Rn(n[t]));return this.zn(n[t],t,o([e],r))},n.id="LinkedErrors",n}(),st=w(),at=function(){function n(){this.name=n.id}return n.prototype.setupOnce=function(){V(function(t){if(nn().getIntegration(n)){if(!st.navigator||!st.location)return t;var r=t.request||{};return r.url=r.url||st.location.href,r.headers=r.headers||{},r.headers["User-Agent"]=st.navigator.userAgent,e({},t,{request:r})}return t})},n.id="UserAgent",n}(),ft=Object.freeze({GlobalHandlers:Qn,TryCatch:Yn,Breadcrumbs:et,LinkedErrors:ct,UserAgent:at}),ht=[new bn,new mn,new Yn,new et,new Qn,new ct,new at];var lt={},vt=w();vt.Sentry&&vt.Sentry.Integrations&&(lt=vt.Sentry.Integrations);var dt=e({},lt,wn,ft);return n.BrowserClient=Wn,n.Hub=Z,n.Integrations=dt,n.SDK_NAME=Hn,n.SDK_VERSION="5.6.3",n.Scope=z,n.Span=X,n.Transports=$n,n.addBreadcrumb=function(n){on("addBreadcrumb",n)},n.addGlobalEventProcessor=V,n.captureEvent=function(n){return on("captureEvent",n)},n.captureException=captureException,n.captureMessage=function(n,t){var r;try{throw new Error(n)}catch(n){r=n}return on("captureMessage",n,t,{originalException:n,syntheticException:r})},n.close=function(n){var t=nn().getClient();return t?t.close(n):Promise.reject(!1)},n.configureScope=function(n){on("configureScope",n)},n.defaultIntegrations=ht,n.flush=function(n){var t=nn().getClient();return t?t.flush(n):Promise.reject(!1)},n.forceLoad=function(){},n.getCurrentHub=nn,n.getHubFromCarrier=rn,n.init=function(n){if(void 0===n&&(n={}),void 0===n.defaultIntegrations&&(n.defaultIntegrations=ht),void 0===n.release){var t=w();t.SENTRY_RELEASE&&t.SENTRY_RELEASE.id&&(n.release=t.SENTRY_RELEASE.id)}!function(n,t){!0===t.debug&&T.enable(),nn().bindClient(new n(t))}(Wn,n)},n.lastEventId=function(){return nn().lastEventId()},n.onLoad=function(n){n()},n.setContext=function(n,t){on("setContext",n,t)},n.setExtra=function(n,t){on("setExtra",n,t)},n.setExtras=function(n){on("setExtras",n)},n.setTag=function(n,t){on("setTag",n,t)},n.setTags=function(n){on("setTags",n)},n.setUser=function(n){on("setUser",n)},n.showReportDialog=function(n){void 0===n&&(n={}),n.eventId||(n.eventId=nn().lastEventId());var t=nn().getClient();t&&t.showReportDialog(n)},n.withScope=un,n.wrap=function(n){return Xn(n)()},n}({});
+  try {
+    Sentry.init({
+      dsn: 'https://fcada901621b4b479cfb36cd4c8a78bd@raven.cryptotab.net/23',
+      attachStacktrace: true,
+      sampleRate: 0.01,
+      ignoreErrors: [
+        /messaging\/notifications-blocked/,
+        /messaging\/permission-blocked/,
+        /messaging\/permission-default/,
+      ]
+    })
+
+    Sentry.configureScope(function (scope) {
+      scope.setTag('version', '0.0.4')
+    })
+
+    self.addEventListener('error', function (error) {
+      try {
+        if (error instanceof ErrorEvent) {
+          Sentry.captureException(error.message)
+        } else {
+          Sentry.captureException(error)
+        }
+      } catch (e) {
+        Sentry.captureException(e)
+      }
+    })
+  } catch (e) {}
+</script>
+
+
+<!-- Google Tag Manager -->
+<script async>(function (w, d, s, l, i) {
+  w[l] = w[l] || []
+  w[l].push({
+    'gtm.start':
+      new Date().getTime(), event: 'gtm.js'
+  })
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+  j.async = true
+  j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+  f.parentNode.insertBefore(j, f)
+})(window, document, 'script', 'dataLayer', 'GTM-KCSQC38')</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  btc2usd = 0
+</script>
+<script src="https://cdn.cryptobrowser.space/static/bl/scripts/vendor/lazyload.js"></script>
+
+
+  <script>
+  function CWAloaded() {
+    const search = new URLSearchParams(window.location.search)
+    const aid = search.get('aid') || ''
+    let meta = {
+      ob: false,
+      landing_id: '',
+      land: ''
+    }
+    if (window.CWAmeta && typeof CWAmeta == 'function') {
+      CWAmeta(meta).then(send, () => send(meta))
+    } else {
+      send(meta)
+    }
+    function send(m) {
+      window.CWA && CWA.initPromise.then(
+        (data) => {
+          updateLinks(data.c, data.u)
+        }, (error) => {
+          console.error(error)
+        }
+      )
+      window.CWA && CWA.init('https://an.cryptobrowser.site', {
+        aid: aid,
+        project: 'ct',
+        meta: m || meta
+      });
+    }
+    
+    function updateLinks (cid, uid) {
+        var gPlayLinks = document.querySelectorAll('.js-gplay')
+        for (var i = 0; i < gPlayLinks.length; i++) {
+          var gplay_link = gPlayLinks[i].getAttribute('href')
+          if (gplay_link) {
+            gPlayLinks[i].setAttribute('href', gplay_link + encodeURIComponent('%26utm_cid%3D' + cid + '%26utm_uid%3D' + uid))
+            gPlayLinks[i].addEventListener('click', function (event) {
+              CWA.onDownload('browser_android', false)
+            })
+          }
+        }
+        
+        document.querySelectorAll('.js-cwa').forEach((el) => {
+            if (!el.href) {
+              return;
+            }
+            var url = new URL(el.href);
+            url.searchParams.set('utm_cid', cid);
+            url.searchParams.set('utm_uid', uid);
+            el.href = url.toString();
+        })
+
+        document.querySelectorAll('.js-play').forEach((el) => {
+            if (!el.href) {
+              return;
+            }
+            var url = new URL(el.href);
+            var ref =new URLSearchParams(url.searchParams.get('referrer') || '');
+            ref.set('utm_cid', cid);
+            ref.set('utm_uid', uid);
+            if (aid) {
+              ref.set('utm_aid', aid);
+            }
+            url.searchParams.set('referrer', ref.toString());
+            el.href = url.toString();
+        })
+        document.querySelectorAll('.js-play-2').forEach((el) => {
+            if (!el.href) {
+              return;
+            }
+            var url = new URL(el.href);
+            var ref =new URLSearchParams(url.searchParams.get('referrer') || '');
+            if (aid) {
+              ref.set('utm_ref', aid);
+            }
+            ref.set('utm_content', `${cid}:${uid}`);
+            url.searchParams.set('referrer', ref.toString());
+            el.href = url.toString();
+        })
+
+        document.querySelectorAll('.js-farm').forEach((el) => {
+          if (!el.href) {
+            return;
+          }
+          var url = new URL(el.href || el.dataset.qrcode);
+          let res = (url.searchParams.get('ref') || '').split('.');
+          
+          
+          
+          res[3] = (aid || ''); //utm_ref
+          res[4] = encodeURIComponent(`${cid}:${uid}`); //utm_content
+          url.searchParams.set('ref', res.join('.'));
+          el.href = url.toString();
+        })
+      
+        document.querySelectorAll('.js-play-farm').forEach((el) => {
+          if (!el.href) {
+            return;
+          }
+          var url = new URL(el.href || el.dataset.qrcode);
+          var link = new URL(url.searchParams.get('link'));
+          let res = (link.searchParams.get('ref') || '').split('.');
+          
+          
+          
+          res[3] = (aid || ''); //utm_ref
+          res[4] = encodeURIComponent(`${cid}:${uid}`); //utm_content
+          link.searchParams.set('ref', res.join('.'));
+          url.searchParams.set('link', link.toString());
+          el.href = url.toString();
+        })
+
+        document.querySelectorAll('.js-telegram').forEach((el) => {
+            if (!el.href) {
+              return;
+            }
+            var url = new URL(el.href);
+            url.searchParams.set('start', btoa(`R:${uid}`));
+            el.href = url.toString();
+        })
+    }
+
+    function updateAppStoreLinks () {
+        var appStoreLinks = document.querySelectorAll('.js-appstore')
+        for (var i = 0; i < appStoreLinks.length; i++) {
+          var appStore_link = 'https://itunes.apple.com/app/cryptotab-browser-pro/id1524974223/'
+          appStoreLinks[i].setAttribute('href', appStore_link)
+          appStoreLinks[i].addEventListener('click', function (event) {CWA.onDownload('browser_ios', false)})
+        }
+    }
+
+    function getDownloadURL(id) {
+        var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0
+        var result = {}
+
+        if (isMac) {
+          document.body.classList.add('mac')
+          result.href = '/get/CTBrowserSetup.dmg'
+          result.download = 'CTBrowserSetup' + (id ? '_' + id : '') + '.dmg'
+          return result
+        }
+
+        document.body.classList.add('win')
+        result.href = '/get/CTBrowserSetup.exe'
+        result.download = 'CTBrowserSetup' + (id ? '_' + id : '') + '.exe'
+        return result
+    }
+
+    function updateDownloadBtns() {
+        var init_attributes = getDownloadURL()
+        var downloadBtns = document.querySelectorAll('.js-accept')
+        for (var i = 0; i < downloadBtns.length; i++) {
+          downloadBtns[i].setAttribute('href', init_attributes.href)
+          downloadBtns[i].setAttribute('download', init_attributes.download)
+          downloadBtns[i].addEventListener('click', function (event) {
+            event.preventDefault()
+            const btn = this
+            if (isMobile) {
+              window.CWA && CWA.onDownload('browser_' + (iOS ? 'ios' : 'android'), false).then(function (data) {
+                var link = document.createElement('a')
+                document.body.appendChild(link)
+                link.href = iOS ? 'https://itunes.apple.com/app/cryptotab-browser-pro/id1524974223'
+                    : 'https://play.app.goo.gl/?link=' + encodeURIComponent(`https://play.google.com/store/apps/details?id=pro.cryptotab.android&referrer=utm_source%3Dlanding%26utm_medium%3Dfooter%26utm_cid%3D${data.c}%26utm_uid%3D${data.u}`)
+                link.click()
+              })
+            } else {
+              window.CWA && CWA.onDownload('browser', true).then(function (data) {
+                var attributes = getDownloadURL(data.d)
+                btn.setAttribute('href', attributes.href)
+                btn.setAttribute('download', attributes.download)
+                //showPopup('termsPopup')
+                var link = document.createElement('a')
+                document.body.appendChild(link)
+                link.href = attributes.href
+                link.download = attributes.download
+                link.click()
+              })
+            }
+          })
+        }
+    }
+
+    
+    function isIOS () {
+      return /iPhone|iPod|iPad/.test(navigator.userAgent)
+    }
+
+    function mobilecheck () {
+      return /iPhone|iPod|iPad|Android|Linux/.test(navigator.userAgent || navigator.vendor || window.opera)
+    }
+    
+    var isMobile = mobilecheck()
+    var iOS = isIOS()
+  
+    CWAloaded.domLoaded.then(() => {
+      updateAppStoreLinks()
+      updateDownloadBtns()
+    })
+  }
+  
+  CWAloaded.domLoaded = new Promise((resolve) => {
+    document.addEventListener('DOMContentLoaded', () => {
+     resolve();
+    })
+  })
+
+
+</script>
+<script src="https://js.cryptobrowser.site/static/js/cwa.js" async defer onload="CWAloaded()"></script>
+
+
+    
+    
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CryptoTab Browser",
+      "description": "CryptoTab Browser is a special web browser with built-in mining features. Familiar Chrome user interface combined with extremely fast mining speed. Mine and browse at the same time!",
+      "image": [
+           "https://cryptobrowser.site/static/browser_site/images/store-img-1.png",
+           "https://cryptobrowser.site/static/browser_site/images/store-img-2.png"
+       ],
+      "operatingSystem": "WINDOWS",
+      "applicationCategory": "https://schema.org/BrowserApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CryptoTab Browser",
+      "operatingSystem": "OSX",
+      "description": "CryptoTab Browser is a special web browser with built-in mining features. Familiar Chrome user interface combined with extremely fast mining speed. Mine and browse at the same time!",
+      "image": [
+           "https://cryptobrowser.site/static/browser_site/images/store-img-1.png",
+           "https://cryptobrowser.site/static/browser_site/images/store-img-2.png"
+       ],
+      "applicationCategory": "https://schema.org/BrowserApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "CryptoTab Browser",
+      "operatingSystem": "ANDROID",
+      "description": "CryptoTab is an easy-to-use, fast and safe web browser proudly made by passionate blockchain enthusiasts. It combines a smooth and comfortable user experience with some unique cryptocurrency-related features.",
+      "applicationCategory": "https://schema.org/BrowserApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "26988"
+      }
+    }
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "CryptoTab Browser",
+      "operatingSystem": "IOS",
+      "description": "CryptoTab is an easy-to-use, fast and safe web browser proudly made by passionate blockchain enthusiasts. It combines a smooth and comfortable user experience with some unique cryptocurrency-related features.",
+      "applicationCategory": "https://schema.org/BrowserApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "ratingCount": "234"
+      }
+    }
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "CryptoTab",
+      "url": "https://cryptobrowser.site",
+      "logo":  "https://cryptobrowser.site/static/browser_site/images/cryptotab_icon-a@2x.png",
+      "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "url": "https://cryptobrowser.site/feedback/",
+            "contactType": "customer service"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/CryptoTabFamilyOfficial",
+        "https://vk.com/public162654141",
+        "https://t.me/CryptoTabChannel",
+        "https://twitter.com/CryptoTabnet",
+        "https://www.youtube.com/c/CryptoTabBrowser"
+      ]
+    }
+</script>
+
+</head>
+<body class="page ">
+  
+  
+  <div class="page-content ">
+    
+
+  
+
+<div class="header  " id="header">
+  <div class="header__wrapper">
+    <div class="header__container">
+      <div class="burger"><span></span></div>
+      <div class="header__logo">
+      <div class="logo-animated logo-animated--browser logo-animated--dark">
+           <svg xmlns="http://www.w3.org/2000/svg" width="1041" height="180" class='not-animated dark' style="display:  none;" viewBox="0 0 1041 180" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M283.584 112.608C284.16 112.32 284.97 112.176 286.014 112.176C287.058 112.176 287.958 112.59 288.714 113.418C289.47 114.246 289.848 115.2 289.848 116.28C289.848 118.224 289.056 119.592 287.472 120.384C284.088 122.256 280.47 123.84 276.618 125.136C272.766 126.432 268.158 127.08 262.794 127.08C257.43 127.08 252.444 126.198 247.836 124.434C243.228 122.67 239.232 120.096 235.848 116.712C228.648 109.656 225.048 100.188 225.048 88.3081C225.048 76.4281 228.648 66.9602 235.848 59.9041C242.832 52.9921 251.832 49.5361 262.848 49.5361C268.176 49.5361 272.766 50.1841 276.618 51.4801C280.47 52.7761 283.422 53.9821 285.474 55.0981C287.526 56.2141 288.768 57.1141 289.2 57.7981C289.632 58.4821 289.848 59.3461 289.848 60.3901C289.848 61.4341 289.47 62.3701 288.714 63.1981C287.958 64.0261 287.058 64.4401 286.014 64.4401C284.97 64.4401 284.16 64.2961 283.584 64.0081C280.704 62.4961 277.752 61.2721 274.728 60.3361C271.704 59.4001 267.942 58.9321 263.442 58.9321C258.942 58.9321 254.874 59.6881 251.238 61.2001C247.602 62.7121 244.56 64.8001 242.112 67.4641C237.288 72.7201 234.876 79.6681 234.876 88.3081C234.876 96.9482 237.288 103.896 242.112 109.152C247.368 114.84 254.604 117.684 263.82 117.684C268.068 117.684 271.704 117.216 274.728 116.28C277.752 115.344 280.704 114.12 283.584 112.608ZM311.988 79.9921C317.028 73.2241 322.68 69.8401 328.944 69.8401H329.484C330.852 69.8401 331.986 70.3081 332.886 71.2441C333.786 72.1801 334.236 73.3501 334.236 74.7541C334.236 76.1581 333.768 77.2741 332.832 78.1021C331.896 78.9301 330.708 79.3441 329.268 79.3441H328.728C325.128 79.3441 321.906 80.2261 319.062 81.9901C316.218 83.7541 313.86 86.0401 311.988 88.8481V121.68C311.988 123.048 311.502 124.2 310.53 125.136C309.558 126.072 308.388 126.54 307.02 126.54C305.652 126.54 304.5 126.072 303.564 125.136C302.628 124.2 302.16 123.048 302.16 121.68V75.3481C302.16 73.9801 302.628 72.8101 303.564 71.8381C304.5 70.8661 305.652 70.3801 307.02 70.3801C308.388 70.3801 309.558 70.8661 310.53 71.8381C311.502 72.8101 311.988 73.9801 311.988 75.3481V79.9921ZM385.536 70.3801C386.904 70.3801 388.056 70.8661 388.992 71.8381C389.928 72.8101 390.396 73.8181 390.396 74.8621C390.396 75.9061 390.288 76.6801 390.072 77.1841L360.588 148.032C359.652 150.264 358.14 151.38 356.052 151.38C354.756 151.38 353.658 150.912 352.758 149.976C351.858 149.04 351.408 148.104 351.408 147.168C351.408 146.232 351.516 145.476 351.732 144.9L358.752 126.864L338.448 77.4001C338.16 76.6801 338.016 75.8161 338.016 74.8081C338.016 73.8001 338.484 72.8101 339.42 71.8381C340.356 70.8661 341.4 70.3801 342.552 70.3801C344.928 70.3801 346.548 71.3881 347.412 73.4041L364.044 114.66L381 73.6201C381.936 71.4601 383.448 70.3801 385.536 70.3801ZM411.348 78.0481C416.676 72.5761 422.832 69.8401 429.816 69.8401C436.8 69.8401 442.776 72.3241 447.744 77.2921C453.216 82.7641 455.952 89.8201 455.952 98.4601C455.952 107.244 453.216 114.336 447.744 119.736C442.704 124.632 436.71 127.08 429.762 127.08C422.814 127.08 416.676 124.344 411.348 118.872V146.412C411.348 147.852 410.88 149.04 409.944 149.976C409.008 150.912 407.838 151.38 406.434 151.38C405.03 151.38 403.86 150.912 402.924 149.976C401.988 149.04 401.52 147.852 401.52 146.412V75.2401C401.52 73.8721 401.988 72.7201 402.924 71.7841C403.86 70.8481 405.03 70.3801 406.434 70.3801C407.838 70.3801 409.008 70.8481 409.944 71.7841C410.88 72.7201 411.348 73.8721 411.348 75.2401V78.0481ZM411.348 109.8C416.244 115.2 421.932 117.9 428.412 117.9C436.62 117.9 442.092 114.228 444.828 106.884C445.692 104.436 446.124 101.628 446.124 98.4601C446.124 92.2681 444.468 87.4081 441.156 83.8801C437.988 80.6401 433.74 79.0201 428.412 79.0201C421.932 79.0201 416.244 81.7201 411.348 87.1201V109.8ZM489.324 118.44C491.268 118.44 492.654 118.278 493.482 117.954C494.31 117.63 495.21 117.468 496.182 117.468C497.154 117.468 498.036 117.828 498.828 118.548C499.62 119.268 500.016 120.348 500.016 121.788C500.016 123.228 499.296 124.272 497.856 124.92C494.76 126.36 492.114 127.08 489.918 127.08C487.722 127.08 485.724 126.972 483.924 126.756C482.124 126.54 480.396 125.928 478.74 124.92C474.78 122.616 472.8 118.584 472.8 112.824V79.3441H465.132C463.764 79.3441 463.08 78.6601 463.08 77.2921C463.08 76.6441 463.404 76.0321 464.052 75.4561L478.74 61.0921C479.388 60.4441 480 60.1201 480.576 60.1201C481.152 60.1201 481.638 60.3361 482.034 60.7681C482.43 61.2001 482.628 61.7041 482.628 62.2801V70.9201H494.832C496.056 70.9201 497.064 71.3161 497.856 72.1081C498.648 72.9001 499.044 73.9081 499.044 75.1321C499.044 76.3561 498.648 77.3641 497.856 78.1561C497.064 78.9481 496.056 79.3441 494.832 79.3441H482.628V111.96C482.628 114.696 483.456 116.568 485.112 117.576C486.048 118.152 487.452 118.44 489.324 118.44ZM535.008 69.8401C543.36 69.8401 550.056 72.4681 555.096 77.7241C560.136 83.0521 562.656 89.9641 562.656 98.4601C562.656 106.956 560.136 113.868 555.096 119.196C550.056 124.452 543.36 127.08 535.008 127.08C526.584 127.08 519.888 124.452 514.92 119.196C509.88 113.94 507.36 107.028 507.36 98.4601C507.36 89.8921 509.88 82.9801 514.92 77.7241C519.888 72.4681 526.584 69.8401 535.008 69.8401ZM522.912 113.688C524.64 115.2 526.566 116.316 528.69 117.036C530.814 117.756 532.902 118.116 534.954 118.116C537.006 118.116 539.094 117.756 541.218 117.036C543.342 116.316 545.268 115.2 546.996 113.688C550.884 110.16 552.828 105.048 552.828 98.3521C552.828 91.8721 550.884 86.8321 546.996 83.2321C543.756 80.2801 539.76 78.8041 535.008 78.8041C527.232 78.8041 521.832 82.2961 518.808 89.2801C517.728 91.8001 517.188 94.8421 517.188 98.4061C517.188 101.97 517.728 105.012 518.808 107.532C519.888 110.052 521.256 112.104 522.912 113.688ZM618.384 50.6161C619.68 50.6161 620.778 51.0661 621.678 51.9661C622.578 52.8661 623.028 53.9641 623.028 55.2601C623.028 56.5561 622.578 57.6361 621.678 58.5001C620.778 59.3641 619.68 59.7961 618.384 59.7961H596.46V121.68C596.46 123.048 595.974 124.2 595.002 125.136C594.03 126.072 592.86 126.54 591.492 126.54C590.124 126.54 588.972 126.072 588.036 125.136C587.1 124.2 586.632 123.048 586.632 121.68V59.7961H564.6C563.304 59.7961 562.224 59.3641 561.36 58.5001C560.496 57.6361 560.064 56.5561 560.064 55.2601C560.064 53.9641 560.496 52.8661 561.36 51.9661C562.224 51.0661 563.304 50.6161 564.6 50.6161H618.384ZM626.592 73.7281C632.64 71.1361 638.904 69.8401 645.384 69.8401C652.728 69.8401 658.416 72.0721 662.448 76.5361C666.048 80.4241 667.848 85.2841 667.848 91.1161V121.68C667.848 123.048 667.362 124.2 666.39 125.136C665.418 126.072 664.248 126.54 662.88 126.54C661.512 126.54 660.36 126.072 659.424 125.136C658.488 124.2 658.02 123.048 658.02 121.68V118.872C656.076 120.888 653.466 122.76 650.19 124.488C646.914 126.216 642.756 127.08 637.716 127.08C632.748 127.08 628.608 125.64 625.296 122.76C621.84 119.736 620.112 115.776 620.112 110.88C620.112 105.552 622.128 101.376 626.16 98.3521C630.552 95.0401 636.816 93.3841 644.952 93.3841H658.02V92.5201C658.02 87.6961 656.832 84.2581 654.456 82.2061C652.08 80.1541 648.444 79.1281 643.548 79.1281C639.372 79.1281 634.584 79.9921 629.184 81.7201C628.608 81.8641 627.96 81.9361 627.24 81.9361C626.52 81.9361 625.764 81.5581 624.972 80.8021C624.18 80.0461 623.784 78.8761 623.784 77.2921C623.784 75.7081 624.72 74.5201 626.592 73.7281ZM629.94 109.8C629.94 115.56 633.756 118.44 641.388 118.44C644.772 118.44 647.922 117.612 650.838 115.956C653.754 114.3 656.148 112.428 658.02 110.34V101.268H646.248C641.136 101.268 637.14 101.916 634.26 103.212C631.38 104.508 629.94 106.704 629.94 109.8ZM694.308 78.0481C699.636 72.5761 705.792 69.8401 712.776 69.8401C719.76 69.8401 725.736 72.3241 730.704 77.2921C736.176 82.7641 738.912 89.8201 738.912 98.4601C738.912 107.244 736.176 114.336 730.704 119.736C725.664 124.632 719.67 127.08 712.722 127.08C705.774 127.08 699.636 124.344 694.308 118.872V121.68C694.308 123.048 693.84 124.2 692.904 125.136C691.968 126.072 690.798 126.54 689.394 126.54C687.99 126.54 686.82 126.072 685.884 125.136C684.948 124.2 684.48 123.048 684.48 121.68V51.5881C684.48 50.1481 684.948 48.9601 685.884 48.0241C686.82 47.0881 687.99 46.6201 689.394 46.6201C690.798 46.6201 691.968 47.0881 692.904 48.0241C693.84 48.9601 694.308 50.1481 694.308 51.5881V78.0481ZM694.308 109.8C699.204 115.2 704.892 117.9 711.372 117.9C719.58 117.9 725.052 114.228 727.788 106.884C728.652 104.436 729.084 101.628 729.084 98.4601C729.084 92.2681 727.428 87.4081 724.116 83.8801C720.948 80.6401 716.7 79.0201 711.372 79.0201C704.892 79.0201 699.204 81.7201 694.308 87.1201V109.8Z" fill="black"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M796.547 80.0823C796.547 83.9703 794.783 86.7423 791.255 88.3983C794.675 89.5503 796.943 91.4403 798.059 94.0683C798.455 95.0763 798.653 96.2823 798.653 97.6863C798.653 99.0903 798.401 100.44 797.897 101.736C797.393 103.032 796.583 104.148 795.467 105.084C793.163 107.028 789.599 108 784.775 108H771.707C771.023 108 770.447 107.766 769.979 107.298C769.511 106.83 769.277 106.254 769.277 105.57V72.7923C769.277 72.1083 769.511 71.5233 769.979 71.0373C770.447 70.5513 771.023 70.3083 771.707 70.3083H784.451C788.411 70.3083 791.417 71.2083 793.469 73.0083C795.521 74.8083 796.547 77.1663 796.547 80.0823ZM791.849 80.4603C791.849 78.7683 791.174 77.4183 789.824 76.4103C788.474 75.4023 786.557 74.8983 784.073 74.8983H774.191V86.6163H783.155C787.799 86.6163 790.571 85.3743 791.471 82.8903C791.723 82.1343 791.849 81.3243 791.849 80.4603ZM784.289 103.41C789.401 103.41 792.443 102.186 793.415 99.7383C793.739 98.9823 793.901 98.1363 793.901 97.2003C793.901 95.0403 793.091 93.4743 791.471 92.5023C789.851 91.5303 787.475 91.0443 784.343 91.0443H774.191V103.41H784.289ZM836.075 105.84C836.075 106.524 835.841 107.1 835.373 107.568C834.905 108.036 834.311 108.27 833.591 108.27C832.871 108.27 832.286 108.045 831.836 107.595C831.386 107.145 831.161 106.56 831.161 105.84V104.22C831.161 101.304 830.837 99.1623 830.189 97.7943C829.541 96.4263 828.659 95.3373 827.543 94.5273C826.427 93.7173 824.843 93.3123 822.791 93.3123H811.613V105.84C811.613 106.524 811.37 107.1 810.884 107.568C810.398 108.036 809.813 108.27 809.129 108.27C808.445 108.27 807.869 108.036 807.401 107.568C806.933 107.1 806.699 106.524 806.699 105.84V72.7923C806.699 72.1083 806.933 71.5233 807.401 71.0373C807.869 70.5513 808.445 70.3083 809.129 70.3083H821.711C826.643 70.3083 830.369 71.3523 832.889 73.4403C835.229 75.4203 836.399 78.0303 836.399 81.2703C836.399 83.3583 835.814 85.3023 834.644 87.1023C833.474 88.9023 831.701 90.2163 829.325 91.0443C831.917 91.7283 833.789 93.6003 834.941 96.6603C835.697 98.7123 836.075 100.944 836.075 103.356V105.84ZM821.387 88.6683C824.411 88.6683 826.85 88.0743 828.704 86.8863C830.558 85.6983 831.485 83.9523 831.485 81.6483C831.485 79.4883 830.765 77.8683 829.325 76.7883C827.597 75.5643 824.861 74.9523 821.117 74.9523H811.613V88.6683H821.387ZM861.833 69.7683C867.521 69.7683 872.093 71.5863 875.549 75.2223C878.897 78.7863 880.643 83.4303 880.787 89.1543C880.643 94.8783 878.897 99.5223 875.549 103.086C872.093 106.722 867.521 108.54 861.833 108.54C856.109 108.54 851.537 106.722 848.117 103.086C844.697 99.4863 842.951 94.8423 842.879 89.1543C842.951 83.4663 844.697 78.8223 848.117 75.2223C851.537 71.5863 856.109 69.7683 861.833 69.7683ZM861.833 103.95C866.225 103.95 869.681 102.528 872.201 99.6843C874.649 96.9483 875.873 93.4383 875.873 89.1543C875.873 84.8703 874.649 81.3603 872.201 78.6243C869.681 75.7803 866.225 74.3583 861.833 74.3583C857.441 74.3583 853.985 75.7803 851.465 78.6243C849.017 81.3603 847.793 84.8703 847.793 89.1543C847.793 93.4383 849.017 96.9483 851.465 99.6843C853.985 102.528 857.441 103.95 861.833 103.95ZM910.919 70.0383C911.567 70.0383 912.152 70.2273 912.674 70.6053C913.196 70.9833 913.547 71.4783 913.727 72.0903L922.853 101.79L931.925 71.9823C932.321 70.6863 933.131 70.0383 934.355 70.0383C935.075 70.0383 935.651 70.2453 936.083 70.6593C936.515 71.0733 936.731 71.5233 936.731 72.0093C936.731 72.4953 936.677 72.9363 936.569 73.3323L925.985 105.84C925.409 107.46 924.347 108.27 922.799 108.27C922.079 108.27 921.422 108.045 920.828 107.595C920.234 107.145 919.829 106.56 919.613 105.84L910.919 78.3003L902.225 105.84C902.009 106.56 901.604 107.145 901.01 107.595C900.416 108.045 899.759 108.27 899.039 108.27C897.491 108.27 896.429 107.46 895.853 105.84L885.269 73.3323C885.161 72.9363 885.107 72.4953 885.107 72.0093C885.107 71.5233 885.323 71.0733 885.755 70.6593C886.187 70.2453 886.727 70.0383 887.375 70.0383C888.671 70.0383 889.517 70.6863 889.913 71.9823L898.985 101.79L908.111 72.0903C908.291 71.4783 908.642 70.9833 909.164 70.6053C909.686 70.2273 910.271 70.0383 910.919 70.0383ZM954.713 103.896C961.013 103.896 964.163 101.826 964.163 97.6863C964.163 95.9583 962.957 94.5723 960.545 93.5283C959.501 93.0963 958.286 92.7093 956.9 92.3673C955.514 92.0253 954.11 91.6563 952.688 91.2603C951.266 90.8643 949.862 90.4143 948.476 89.9103C947.09 89.4063 945.857 88.7583 944.777 87.9663C942.401 86.1663 941.213 83.7903 941.213 80.8383C941.213 77.6703 942.401 75.0783 944.777 73.0623C947.369 70.8663 950.843 69.7683 955.199 69.7683C959.123 69.7683 962.705 70.3623 965.945 71.5503C966.953 71.9103 967.457 72.6303 967.457 73.7103C967.457 74.2503 967.268 74.7633 966.89 75.2493C966.512 75.7353 966.098 75.9783 965.648 75.9783C965.198 75.9783 964.577 75.8343 963.785 75.5463C961.445 74.7183 958.763 74.3043 955.739 74.3043C952.967 74.3043 950.681 74.8263 948.881 75.8703C947.045 76.9503 946.127 78.4803 946.127 80.4603C946.127 82.5123 947.315 84.0603 949.691 85.1043C950.771 85.6083 951.995 86.0223 953.363 86.3463C954.731 86.6703 956.135 87.0123 957.575 87.3723C959.015 87.7323 960.419 88.1553 961.787 88.6413C963.155 89.1273 964.379 89.7663 965.459 90.5583C967.835 92.2863 969.023 94.7703 969.023 98.0103C969.023 101.106 967.781 103.626 965.297 105.57C962.741 107.55 959.375 108.54 955.199 108.54C950.627 108.54 946.343 107.676 942.347 105.948C941.951 105.768 941.6 105.48 941.294 105.084C940.988 104.688 940.835 104.211 940.835 103.653C940.835 103.095 941.033 102.591 941.429 102.141C941.825 101.691 942.284 101.466 942.806 101.466C943.328 101.466 943.976 101.637 944.75 101.979C945.524 102.321 946.793 102.726 948.557 103.194C950.321 103.662 952.373 103.896 954.713 103.896ZM1000.67 103.41C1001.32 103.41 1001.86 103.635 1002.31 104.085C1002.76 104.535 1002.99 105.084 1002.99 105.732C1002.99 106.38 1002.76 106.92 1002.31 107.352C1001.86 107.784 1001.32 108 1000.67 108H979.013C978.329 108 977.753 107.766 977.285 107.298C976.817 106.83 976.583 106.254 976.583 105.57V72.7923C976.583 72.1083 976.817 71.5233 977.285 71.0373C977.753 70.5513 978.329 70.3083 979.013 70.3083H1000.67C1001.32 70.3083 1001.86 70.5333 1002.31 70.9833C1002.76 71.4333 1002.99 71.9823 1002.99 72.6303C1002.99 73.2783 1002.76 73.8183 1002.31 74.2503C1001.86 74.6823 1001.32 74.8983 1000.67 74.8983H981.497V86.8323H998.723C999.371 86.8323 999.92 87.0573 1000.37 87.5073C1000.82 87.9573 1001.05 88.5063 1001.05 89.1543C1001.05 89.8023 1000.82 90.3423 1000.37 90.7743C999.92 91.2063 999.371 91.4223 998.723 91.4223H981.497V103.41H1000.67ZM1040.41 105.84C1040.41 106.524 1040.18 107.1 1039.71 107.568C1039.24 108.036 1038.65 108.27 1037.93 108.27C1037.21 108.27 1036.62 108.045 1036.17 107.595C1035.72 107.145 1035.5 106.56 1035.5 105.84V104.22C1035.5 101.304 1035.17 99.1623 1034.53 97.7943C1033.88 96.4263 1033 95.3373 1031.88 94.5273C1030.76 93.7173 1029.18 93.3123 1027.13 93.3123H1015.95V105.84C1015.95 106.524 1015.71 107.1 1015.22 107.568C1014.73 108.036 1014.15 108.27 1013.47 108.27C1012.78 108.27 1012.21 108.036 1011.74 107.568C1011.27 107.1 1011.04 106.524 1011.04 105.84V72.7923C1011.04 72.1083 1011.27 71.5233 1011.74 71.0373C1012.21 70.5513 1012.78 70.3083 1013.47 70.3083H1026.05C1030.98 70.3083 1034.71 71.3523 1037.23 73.4403C1039.57 75.4203 1040.74 78.0303 1040.74 81.2703C1040.74 83.3583 1040.15 85.3023 1038.98 87.1023C1037.81 88.9023 1036.04 90.2163 1033.66 91.0443C1036.25 91.7283 1038.13 93.6003 1039.28 96.6603C1040.03 98.7123 1040.41 100.944 1040.41 103.356V105.84ZM1025.72 88.6683C1028.75 88.6683 1031.19 88.0743 1033.04 86.8863C1034.89 85.6983 1035.82 83.9523 1035.82 81.6483C1035.82 79.4883 1035.1 77.8683 1033.66 76.7883C1031.93 75.5643 1029.2 74.9523 1025.45 74.9523H1015.95V88.6683H1025.72Z" fill="black"/>
+              <circle cx="90" cy="90" r="90" fill="#F7931A"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M123.804 126.108C124.668 125.676 125.883 125.46 127.449 125.46C129.015 125.46 130.365 126.081 131.499 127.323C132.633 128.565 133.2 129.996 133.2 131.616C133.2 134.532 132.012 136.584 129.636 137.772C124.56 140.58 119.133 142.956 113.355 144.9C107.577 146.844 100.665 147.816 92.619 147.816C84.573 147.816 77.094 146.493 70.182 143.847C63.27 141.201 57.276 137.34 52.2 132.264C41.3999 121.68 36 107.478 36 89.658C36 71.8379 41.3999 57.6361 52.2 47.052C62.6761 36.6839 76.1759 31.5 92.7 31.5C100.692 31.5 107.577 32.472 113.355 34.416C119.133 36.36 123.561 38.169 126.639 39.843C129.717 41.517 131.58 42.867 132.228 43.893C132.876 44.919 133.2 46.215 133.2 47.781C133.2 49.347 132.633 50.751 131.499 51.993C130.365 53.235 129.015 53.856 127.449 53.856C125.883 53.856 124.668 53.64 123.804 53.208C119.484 50.94 115.056 49.104 110.52 47.7C105.984 46.296 100.341 45.594 93.591 45.594C86.841 45.594 80.739 46.728 75.285 48.996C69.831 51.264 65.268 54.396 61.596 58.392C54.36 66.276 50.742 76.6979 50.742 89.658C50.742 102.618 54.36 113.04 61.596 120.924C69.48 129.456 80.3339 133.722 94.158 133.722C100.53 133.722 105.984 133.02 110.52 131.616C115.056 130.212 119.484 128.376 123.804 126.108ZM79.5425 74.0412L81.0553 75.7184C77.8959 79.1613 76.2216 83.7877 76.2216 89.829C76.2216 95.8693 77.8953 100.495 81.0537 103.938C84.489 107.654 89.2671 109.611 95.6796 109.611C98.7119 109.611 101.202 109.276 103.195 108.659C105.328 107.998 107.415 107.134 109.457 106.062L109.476 106.052L109.496 106.042C110.377 105.601 111.385 105.48 112.325 105.48C113.791 105.48 115.054 106.095 116.012 107.144C116.941 108.163 117.451 109.413 117.451 110.808C117.451 111.842 117.238 112.872 116.702 113.798C116.168 114.721 115.389 115.407 114.471 115.875C111.819 117.339 108.993 118.574 105.996 119.583C102.815 120.653 99.1037 121.158 94.9101 121.158C90.6361 121.158 86.6215 120.454 82.8872 119.025C79.149 117.594 75.8843 115.495 73.1176 112.731C67.2146 106.942 64.3506 99.2228 64.3506 89.829C64.3506 80.433 67.2159 72.7129 73.1217 66.923L74.6302 68.5953C74.6302 68.5952 74.6303 68.5951 74.6304 68.5951L73.1217 66.923C78.833 61.2726 86.1761 58.5 94.9506 58.5C99.1191 58.5 102.816 59.0058 105.996 60.0755C108.932 61.0634 111.288 62.0164 112.995 62.9449C113.811 63.3884 114.52 63.8181 115.093 64.2336C115.621 64.6159 116.22 65.1167 116.617 65.745C117.225 66.7083 117.451 67.804 117.451 68.8905C117.451 70.2786 116.927 71.5115 116.012 72.5136C115.054 73.5627 113.791 74.178 112.325 74.178C111.385 74.178 110.377 74.0566 109.496 73.6165L109.476 73.6065L109.457 73.5961C107.415 72.5243 105.328 71.6596 103.195 70.9994C101.212 70.3856 98.6323 70.047 95.3961 70.047C92.2756 70.047 89.5239 70.5705 87.107 71.5755C84.6549 72.5952 82.6523 73.9809 81.0562 75.7174L79.5433 74.0404C79.543 74.0407 79.5428 74.041 79.5425 74.0412Z" fill="white"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1041" height="180" class='not-animated-white' style="display:  none;" viewBox="0 0 1041 180" fill="none">
+          <g id="product_logotype">
+          <g id="type">
+          <path id="CryptoTab" fill-rule="evenodd" clip-rule="evenodd" d="M283.583 112.608C284.159 112.32 284.969 112.176 286.013 112.176C287.057 112.176 287.957 112.59 288.713 113.418C289.469 114.246 289.847 115.2 289.847 116.28C289.847 118.224 289.055 119.592 287.471 120.384C284.087 122.256 280.469 123.84 276.617 125.136C272.765 126.432 268.157 127.08 262.793 127.08C257.429 127.08 252.443 126.198 247.835 124.434C243.227 122.67 239.231 120.096 235.847 116.712C228.647 109.656 225.047 100.188 225.047 88.3081C225.047 76.4281 228.647 66.9602 235.847 59.9041C242.831 52.9921 251.831 49.5361 262.847 49.5361C268.175 49.5361 272.765 50.1841 276.617 51.4801C280.469 52.7761 283.421 53.9821 285.473 55.0981C287.525 56.2141 288.767 57.1141 289.199 57.7981C289.631 58.4821 289.847 59.3461 289.847 60.3901C289.847 61.4341 289.469 62.3701 288.713 63.1981C287.957 64.0261 287.057 64.4401 286.013 64.4401C284.969 64.4401 284.159 64.2961 283.583 64.0081C280.703 62.4961 277.751 61.2721 274.727 60.3361C271.703 59.4001 267.941 58.9321 263.441 58.9321C258.941 58.9321 254.873 59.6881 251.237 61.2001C247.601 62.7121 244.559 64.8001 242.111 67.4641C237.287 72.7201 234.875 79.6681 234.875 88.3081C234.875 96.9482 237.287 103.896 242.111 109.152C247.367 114.84 254.603 117.684 263.819 117.684C268.067 117.684 271.703 117.216 274.727 116.28C277.751 115.344 280.703 114.12 283.583 112.608ZM311.987 79.9921C317.027 73.2241 322.679 69.8401 328.943 69.8401H329.483C330.851 69.8401 331.985 70.3081 332.885 71.2441C333.785 72.1801 334.235 73.3501 334.235 74.7541C334.235 76.1581 333.767 77.2741 332.831 78.1021C331.895 78.9301 330.707 79.3441 329.267 79.3441H328.727C325.127 79.3441 321.905 80.2261 319.061 81.9901C316.217 83.7541 313.859 86.0401 311.987 88.8481V121.68C311.987 123.048 311.501 124.2 310.529 125.136C309.557 126.072 308.387 126.54 307.019 126.54C305.651 126.54 304.499 126.072 303.563 125.136C302.627 124.2 302.159 123.048 302.159 121.68V75.3481C302.159 73.9801 302.627 72.8101 303.563 71.8381C304.499 70.8661 305.651 70.3801 307.019 70.3801C308.387 70.3801 309.557 70.8661 310.529 71.8381C311.501 72.8101 311.987 73.9801 311.987 75.3481V79.9921ZM385.535 70.3801C386.903 70.3801 388.055 70.8661 388.991 71.8381C389.927 72.8101 390.395 73.8181 390.395 74.8621C390.395 75.9061 390.287 76.6801 390.071 77.1841L360.587 148.032C359.651 150.264 358.139 151.38 356.051 151.38C354.755 151.38 353.657 150.912 352.757 149.976C351.857 149.04 351.407 148.104 351.407 147.168C351.407 146.232 351.515 145.476 351.731 144.9L358.751 126.864L338.447 77.4001C338.159 76.6801 338.015 75.8161 338.015 74.8081C338.015 73.8001 338.483 72.8101 339.419 71.8381C340.355 70.8661 341.399 70.3801 342.551 70.3801C344.927 70.3801 346.547 71.3881 347.411 73.4041L364.043 114.66L380.999 73.6201C381.935 71.4601 383.447 70.3801 385.535 70.3801ZM411.347 78.0481C416.675 72.5761 422.831 69.8401 429.815 69.8401C436.799 69.8401 442.775 72.3241 447.743 77.2921C453.215 82.7641 455.951 89.8201 455.951 98.4601C455.951 107.244 453.215 114.336 447.743 119.736C442.703 124.632 436.709 127.08 429.761 127.08C422.813 127.08 416.675 124.344 411.347 118.872V146.412C411.347 147.852 410.879 149.04 409.943 149.976C409.007 150.912 407.837 151.38 406.433 151.38C405.029 151.38 403.859 150.912 402.923 149.976C401.987 149.04 401.519 147.852 401.519 146.412V75.2401C401.519 73.8721 401.987 72.7201 402.923 71.7841C403.859 70.8481 405.029 70.3801 406.433 70.3801C407.837 70.3801 409.007 70.8481 409.943 71.7841C410.879 72.7201 411.347 73.8721 411.347 75.2401V78.0481ZM411.347 109.8C416.243 115.2 421.931 117.9 428.411 117.9C436.619 117.9 442.091 114.228 444.827 106.884C445.691 104.436 446.123 101.628 446.123 98.4601C446.123 92.2681 444.467 87.4081 441.155 83.8801C437.987 80.6401 433.739 79.0201 428.411 79.0201C421.931 79.0201 416.243 81.7201 411.347 87.1201V109.8ZM489.323 118.44C491.267 118.44 492.653 118.278 493.481 117.954C494.309 117.63 495.209 117.468 496.181 117.468C497.153 117.468 498.035 117.828 498.827 118.548C499.619 119.268 500.015 120.348 500.015 121.788C500.015 123.228 499.295 124.272 497.855 124.92C494.759 126.36 492.113 127.08 489.917 127.08C487.721 127.08 485.723 126.972 483.923 126.756C482.123 126.54 480.395 125.928 478.739 124.92C474.779 122.616 472.799 118.584 472.799 112.824V79.3441H465.131C463.763 79.3441 463.079 78.6601 463.079 77.2921C463.079 76.6441 463.403 76.0321 464.051 75.4561L478.739 61.0921C479.387 60.4441 479.999 60.1201 480.575 60.1201C481.151 60.1201 481.637 60.3361 482.033 60.7681C482.429 61.2001 482.627 61.7041 482.627 62.2801V70.9201H494.831C496.055 70.9201 497.063 71.3161 497.855 72.1081C498.647 72.9001 499.043 73.9081 499.043 75.1321C499.043 76.3561 498.647 77.3641 497.855 78.1561C497.063 78.9481 496.055 79.3441 494.831 79.3441H482.627V111.96C482.627 114.696 483.455 116.568 485.111 117.576C486.047 118.152 487.451 118.44 489.323 118.44ZM535.007 69.8401C543.359 69.8401 550.055 72.4681 555.095 77.7241C560.135 83.0521 562.655 89.9641 562.655 98.4601C562.655 106.956 560.135 113.868 555.095 119.196C550.055 124.452 543.359 127.08 535.007 127.08C526.583 127.08 519.887 124.452 514.919 119.196C509.879 113.94 507.359 107.028 507.359 98.4601C507.359 89.8921 509.879 82.9801 514.919 77.7241C519.887 72.4681 526.583 69.8401 535.007 69.8401ZM522.911 113.688C524.639 115.2 526.565 116.316 528.689 117.036C530.813 117.756 532.901 118.116 534.953 118.116C537.005 118.116 539.093 117.756 541.217 117.036C543.341 116.316 545.267 115.2 546.995 113.688C550.883 110.16 552.827 105.048 552.827 98.3521C552.827 91.8721 550.883 86.8321 546.995 83.2321C543.755 80.2801 539.759 78.8041 535.007 78.8041C527.231 78.8041 521.831 82.2961 518.807 89.2801C517.727 91.8001 517.187 94.8421 517.187 98.4061C517.187 101.97 517.727 105.012 518.807 107.532C519.887 110.052 521.255 112.104 522.911 113.688ZM618.383 50.6161C619.679 50.6161 620.777 51.0661 621.677 51.9661C622.577 52.8661 623.027 53.9641 623.027 55.2601C623.027 56.5561 622.577 57.6361 621.677 58.5001C620.777 59.3641 619.679 59.7961 618.383 59.7961H596.459V121.68C596.459 123.048 595.973 124.2 595.001 125.136C594.029 126.072 592.859 126.54 591.491 126.54C590.123 126.54 588.971 126.072 588.035 125.136C587.099 124.2 586.631 123.048 586.631 121.68V59.7961H564.599C563.303 59.7961 562.223 59.3641 561.359 58.5001C560.495 57.6361 560.063 56.5561 560.063 55.2601C560.063 53.9641 560.495 52.8661 561.359 51.9661C562.223 51.0661 563.303 50.6161 564.599 50.6161H618.383ZM626.591 73.7281C632.639 71.1361 638.903 69.8401 645.383 69.8401C652.727 69.8401 658.415 72.0721 662.447 76.5361C666.047 80.4241 667.847 85.2841 667.847 91.1161V121.68C667.847 123.048 667.361 124.2 666.389 125.136C665.417 126.072 664.247 126.54 662.879 126.54C661.511 126.54 660.359 126.072 659.423 125.136C658.487 124.2 658.019 123.048 658.019 121.68V118.872C656.075 120.888 653.465 122.76 650.189 124.488C646.913 126.216 642.755 127.08 637.715 127.08C632.747 127.08 628.607 125.64 625.295 122.76C621.839 119.736 620.111 115.776 620.111 110.88C620.111 105.552 622.127 101.376 626.159 98.3521C630.551 95.0401 636.815 93.3841 644.951 93.3841H658.019V92.5201C658.019 87.6961 656.831 84.2581 654.455 82.2061C652.079 80.1541 648.443 79.1281 643.547 79.1281C639.371 79.1281 634.583 79.9921 629.183 81.7201C628.607 81.8641 627.959 81.9361 627.239 81.9361C626.519 81.9361 625.763 81.5581 624.971 80.8021C624.179 80.0461 623.783 78.8761 623.783 77.2921C623.783 75.7081 624.719 74.5201 626.591 73.7281ZM629.939 109.8C629.939 115.56 633.755 118.44 641.387 118.44C644.771 118.44 647.921 117.612 650.837 115.956C653.753 114.3 656.147 112.428 658.019 110.34V101.268H646.247C641.135 101.268 637.139 101.916 634.259 103.212C631.379 104.508 629.939 106.704 629.939 109.8ZM694.307 78.0481C699.635 72.5761 705.791 69.8401 712.775 69.8401C719.759 69.8401 725.735 72.3241 730.703 77.2921C736.175 82.7641 738.911 89.8201 738.911 98.4601C738.911 107.244 736.175 114.336 730.703 119.736C725.663 124.632 719.669 127.08 712.721 127.08C705.773 127.08 699.635 124.344 694.307 118.872V121.68C694.307 123.048 693.839 124.2 692.903 125.136C691.967 126.072 690.797 126.54 689.393 126.54C687.989 126.54 686.819 126.072 685.883 125.136C684.947 124.2 684.479 123.048 684.479 121.68V51.5881C684.479 50.1481 684.947 48.9601 685.883 48.0241C686.819 47.0881 687.989 46.6201 689.393 46.6201C690.797 46.6201 691.967 47.0881 692.903 48.0241C693.839 48.9601 694.307 50.1481 694.307 51.5881V78.0481ZM694.307 109.8C699.203 115.2 704.891 117.9 711.371 117.9C719.579 117.9 725.051 114.228 727.787 106.884C728.651 104.436 729.083 101.628 729.083 98.4601C729.083 92.2681 727.427 87.4081 724.115 83.8801C720.947 80.6401 716.699 79.0201 711.371 79.0201C704.891 79.0201 699.203 81.7201 694.307 87.1201V109.8Z" fill="white"/>
+          <path id="Browser" fill-rule="evenodd" clip-rule="evenodd" d="M796.547 80.0816C796.547 83.9696 794.783 86.7416 791.255 88.3976C794.675 89.5496 796.943 91.4396 798.059 94.0676C798.455 95.0756 798.653 96.2816 798.653 97.6856C798.653 99.0896 798.401 100.44 797.897 101.736C797.393 103.032 796.583 104.148 795.467 105.084C793.163 107.028 789.599 108 784.775 108H771.707C771.023 108 770.447 107.766 769.979 107.298C769.511 106.83 769.277 106.254 769.277 105.57V72.7916C769.277 72.1076 769.511 71.5226 769.979 71.0366C770.447 70.5506 771.023 70.3076 771.707 70.3076H784.451C788.411 70.3076 791.417 71.2076 793.469 73.0076C795.521 74.8076 796.547 77.1656 796.547 80.0816ZM791.849 80.4596C791.849 78.7676 791.174 77.4176 789.824 76.4096C788.474 75.4016 786.557 74.8976 784.073 74.8976H774.191V86.6156H783.155C787.799 86.6156 790.571 85.3736 791.471 82.8896C791.723 82.1336 791.849 81.3236 791.849 80.4596ZM784.289 103.41C789.401 103.41 792.443 102.186 793.415 99.7376C793.739 98.9816 793.901 98.1356 793.901 97.1996C793.901 95.0396 793.091 93.4736 791.471 92.5016C789.851 91.5296 787.475 91.0436 784.343 91.0436H774.191V103.41H784.289ZM836.075 105.84C836.075 106.524 835.841 107.1 835.373 107.568C834.905 108.036 834.311 108.27 833.591 108.27C832.871 108.27 832.286 108.045 831.836 107.595C831.386 107.145 831.161 106.56 831.161 105.84V104.22C831.161 101.304 830.837 99.1616 830.189 97.7936C829.541 96.4256 828.659 95.3366 827.543 94.5266C826.427 93.7166 824.843 93.3116 822.791 93.3116H811.613V105.84C811.613 106.524 811.37 107.1 810.884 107.568C810.398 108.036 809.813 108.27 809.129 108.27C808.445 108.27 807.869 108.036 807.401 107.568C806.933 107.1 806.699 106.524 806.699 105.84V72.7916C806.699 72.1076 806.933 71.5226 807.401 71.0366C807.869 70.5506 808.445 70.3076 809.129 70.3076H821.711C826.643 70.3076 830.369 71.3516 832.889 73.4396C835.229 75.4196 836.399 78.0296 836.399 81.2696C836.399 83.3576 835.814 85.3016 834.644 87.1016C833.474 88.9016 831.701 90.2156 829.325 91.0436C831.917 91.7276 833.789 93.5996 834.941 96.6596C835.697 98.7116 836.075 100.944 836.075 103.356V105.84ZM821.387 88.6676C824.411 88.6676 826.85 88.0736 828.704 86.8856C830.558 85.6976 831.485 83.9516 831.485 81.6476C831.485 79.4876 830.765 77.8676 829.325 76.7876C827.597 75.5636 824.861 74.9516 821.117 74.9516H811.613V88.6676H821.387ZM861.833 69.7676C867.521 69.7676 872.093 71.5856 875.549 75.2216C878.897 78.7856 880.643 83.4295 880.787 89.1536C880.643 94.8776 878.897 99.5216 875.549 103.086C872.093 106.722 867.521 108.54 861.833 108.54C856.109 108.54 851.537 106.722 848.117 103.086C844.697 99.4856 842.951 94.8416 842.879 89.1536C842.951 83.4655 844.697 78.8216 848.117 75.2216C851.537 71.5856 856.109 69.7676 861.833 69.7676ZM861.833 103.95C866.225 103.95 869.681 102.528 872.201 99.6836C874.649 96.9476 875.873 93.4376 875.873 89.1536C875.873 84.8696 874.649 81.3596 872.201 78.6236C869.681 75.7796 866.225 74.3576 861.833 74.3576C857.441 74.3576 853.985 75.7796 851.465 78.6236C849.017 81.3596 847.793 84.8696 847.793 89.1536C847.793 93.4376 849.017 96.9476 851.465 99.6836C853.985 102.528 857.441 103.95 861.833 103.95ZM910.919 70.0376C911.567 70.0376 912.152 70.2266 912.674 70.6046C913.196 70.9826 913.547 71.4776 913.727 72.0896L922.853 101.79L931.925 71.9816C932.321 70.6856 933.131 70.0376 934.355 70.0376C935.075 70.0376 935.651 70.2446 936.083 70.6586C936.515 71.0726 936.731 71.5226 936.731 72.0086C936.731 72.4946 936.677 72.9356 936.569 73.3316L925.985 105.84C925.409 107.46 924.347 108.27 922.799 108.27C922.079 108.27 921.422 108.045 920.828 107.595C920.234 107.145 919.829 106.56 919.613 105.84L910.919 78.2996L902.225 105.84C902.009 106.56 901.604 107.145 901.01 107.595C900.416 108.045 899.759 108.27 899.039 108.27C897.491 108.27 896.429 107.46 895.853 105.84L885.269 73.3316C885.161 72.9356 885.107 72.4946 885.107 72.0086C885.107 71.5226 885.323 71.0726 885.755 70.6586C886.187 70.2446 886.727 70.0376 887.375 70.0376C888.671 70.0376 889.517 70.6856 889.913 71.9816L898.985 101.79L908.111 72.0896C908.291 71.4776 908.642 70.9826 909.164 70.6046C909.686 70.2266 910.271 70.0376 910.919 70.0376ZM954.713 103.896C961.013 103.896 964.163 101.826 964.163 97.6856C964.163 95.9576 962.957 94.5716 960.545 93.5276C959.501 93.0956 958.286 92.7086 956.9 92.3666C955.514 92.0246 954.11 91.6556 952.688 91.2596C951.266 90.8636 949.862 90.4136 948.476 89.9096C947.09 89.4056 945.857 88.7576 944.777 87.9656C942.401 86.1656 941.213 83.7896 941.213 80.8376C941.213 77.6696 942.401 75.0776 944.777 73.0616C947.369 70.8656 950.843 69.7676 955.199 69.7676C959.123 69.7676 962.705 70.3616 965.945 71.5496C966.953 71.9096 967.457 72.6296 967.457 73.7096C967.457 74.2496 967.268 74.7626 966.89 75.2486C966.512 75.7346 966.098 75.9776 965.648 75.9776C965.198 75.9776 964.577 75.8336 963.785 75.5456C961.445 74.7176 958.763 74.3036 955.739 74.3036C952.967 74.3036 950.681 74.8256 948.881 75.8696C947.045 76.9496 946.127 78.4796 946.127 80.4596C946.127 82.5116 947.315 84.0596 949.691 85.1036C950.771 85.6076 951.995 86.0216 953.363 86.3456C954.731 86.6696 956.135 87.0116 957.575 87.3716C959.015 87.7316 960.419 88.1546 961.787 88.6406C963.155 89.1266 964.379 89.7656 965.459 90.5576C967.835 92.2856 969.023 94.7696 969.023 98.0096C969.023 101.106 967.781 103.626 965.297 105.57C962.741 107.55 959.375 108.54 955.199 108.54C950.627 108.54 946.343 107.676 942.347 105.948C941.951 105.768 941.6 105.48 941.294 105.084C940.988 104.688 940.835 104.211 940.835 103.653C940.835 103.095 941.033 102.591 941.429 102.141C941.825 101.691 942.284 101.466 942.806 101.466C943.328 101.466 943.976 101.637 944.75 101.979C945.524 102.321 946.793 102.726 948.557 103.194C950.321 103.662 952.373 103.896 954.713 103.896ZM1000.67 103.41C1001.32 103.41 1001.86 103.635 1002.31 104.085C1002.76 104.535 1002.99 105.084 1002.99 105.732C1002.99 106.38 1002.76 106.92 1002.31 107.352C1001.86 107.784 1001.32 108 1000.67 108H979.013C978.329 108 977.753 107.766 977.285 107.298C976.817 106.83 976.583 106.254 976.583 105.57V72.7916C976.583 72.1076 976.817 71.5226 977.285 71.0366C977.753 70.5506 978.329 70.3076 979.013 70.3076H1000.67C1001.32 70.3076 1001.86 70.5326 1002.31 70.9826C1002.76 71.4326 1002.99 71.9816 1002.99 72.6296C1002.99 73.2776 1002.76 73.8176 1002.31 74.2496C1001.86 74.6816 1001.32 74.8976 1000.67 74.8976H981.497V86.8316H998.723C999.371 86.8316 999.92 87.0566 1000.37 87.5066C1000.82 87.9566 1001.05 88.5056 1001.05 89.1536C1001.05 89.8016 1000.82 90.3416 1000.37 90.7736C999.92 91.2056 999.371 91.4216 998.723 91.4216H981.497V103.41H1000.67ZM1040.41 105.84C1040.41 106.524 1040.18 107.1 1039.71 107.568C1039.24 108.036 1038.65 108.27 1037.93 108.27C1037.21 108.27 1036.62 108.045 1036.17 107.595C1035.72 107.145 1035.5 106.56 1035.5 105.84V104.22C1035.5 101.304 1035.17 99.1616 1034.53 97.7936C1033.88 96.4256 1033 95.3366 1031.88 94.5266C1030.76 93.7166 1029.18 93.3116 1027.13 93.3116H1015.95V105.84C1015.95 106.524 1015.71 107.1 1015.22 107.568C1014.73 108.036 1014.15 108.27 1013.47 108.27C1012.78 108.27 1012.21 108.036 1011.74 107.568C1011.27 107.1 1011.04 106.524 1011.04 105.84V72.7916C1011.04 72.1076 1011.27 71.5226 1011.74 71.0366C1012.21 70.5506 1012.78 70.3076 1013.47 70.3076H1026.05C1030.98 70.3076 1034.71 71.3516 1037.23 73.4396C1039.57 75.4196 1040.74 78.0296 1040.74 81.2696C1040.74 83.3576 1040.15 85.3016 1038.98 87.1016C1037.81 88.9016 1036.04 90.2156 1033.66 91.0436C1036.25 91.7276 1038.13 93.5996 1039.28 96.6596C1040.03 98.7116 1040.41 100.944 1040.41 103.356V105.84ZM1025.72 88.6676C1028.75 88.6676 1031.19 88.0736 1033.04 86.8856C1034.89 85.6976 1035.82 83.9516 1035.82 81.6476C1035.82 79.4876 1035.1 77.8676 1033.66 76.7876C1031.93 75.5636 1029.2 74.9516 1025.45 74.9516H1015.95V88.6676H1025.72Z" fill="white"/>
+          </g>
+          <g id="logo">
+          <circle id="Oval" cx="90" cy="90" r="90" fill="#F7931A"/>
+          <g id="Cc">
+          <path d="M123.804 126.108C124.668 125.676 125.883 125.46 127.449 125.46C129.015 125.46 130.365 126.081 131.499 127.323C132.633 128.565 133.2 129.996 133.2 131.616C133.2 134.532 132.012 136.584 129.636 137.772C124.56 140.58 119.133 142.956 113.355 144.9C107.577 146.844 100.665 147.816 92.619 147.816C84.573 147.816 77.094 146.493 70.182 143.847C63.27 141.201 57.276 137.34 52.2 132.264C41.3999 121.68 36 107.478 36 89.658C36 71.8379 41.3999 57.6361 52.2 47.052C62.6761 36.6839 76.1759 31.5 92.7 31.5C100.692 31.5 107.577 32.472 113.355 34.416C119.133 36.36 123.561 38.169 126.639 39.843C129.717 41.517 131.58 42.867 132.228 43.893C132.876 44.919 133.2 46.215 133.2 47.781C133.2 49.347 132.633 50.751 131.499 51.993C130.365 53.235 129.015 53.856 127.449 53.856C125.883 53.856 124.668 53.64 123.804 53.208C119.484 50.94 115.056 49.104 110.52 47.7C105.984 46.296 100.341 45.594 93.591 45.594C86.841 45.594 80.739 46.728 75.285 48.996C69.831 51.264 65.268 54.396 61.596 58.392C54.36 66.276 50.742 76.6979 50.742 89.658C50.742 102.618 54.36 113.04 61.596 120.924C69.48 129.456 80.3339 133.722 94.158 133.722C100.53 133.722 105.984 133.02 110.52 131.616C115.056 130.212 119.484 128.376 123.804 126.108Z" fill="white"/>
+          <path d="M79.5425 74.0412L81.0553 75.7184C77.8959 79.1613 76.2216 83.7877 76.2216 89.829C76.2216 95.8693 77.8953 100.495 81.0537 103.938C84.489 107.654 89.2671 109.611 95.6796 109.611C98.7119 109.611 101.202 109.276 103.195 108.659C105.328 107.998 107.415 107.134 109.457 106.062L109.476 106.052L109.496 106.042C110.377 105.601 111.385 105.48 112.325 105.48C113.791 105.48 115.054 106.095 116.012 107.144C116.941 108.163 117.451 109.413 117.451 110.808C117.451 111.842 117.238 112.872 116.702 113.798C116.168 114.721 115.389 115.407 114.471 115.875C111.819 117.339 108.993 118.574 105.996 119.583C102.815 120.653 99.1037 121.158 94.9101 121.158C90.6361 121.158 86.6215 120.454 82.8872 119.025C79.149 117.594 75.8843 115.495 73.1176 112.731C67.2146 106.942 64.3506 99.2228 64.3506 89.829C64.3506 80.433 67.2159 72.7129 73.1217 66.923L74.6302 68.5953C74.6301 68.5953 74.6302 68.5952 74.6302 68.5953L73.1217 66.923C78.833 61.2726 86.1761 58.5 94.9506 58.5C99.1191 58.5 102.816 59.0058 105.996 60.0755C108.932 61.0634 111.288 62.0164 112.995 62.9449C113.811 63.3884 114.52 63.8181 115.093 64.2336C115.621 64.6159 116.22 65.1167 116.617 65.745C117.225 66.7083 117.451 67.804 117.451 68.8905C117.451 70.2786 116.927 71.5115 116.012 72.5136C115.054 73.5627 113.791 74.178 112.325 74.178C111.385 74.178 110.377 74.0566 109.496 73.6165L109.476 73.6065L109.457 73.5961C107.415 72.5243 105.328 71.6596 103.195 70.9994C101.212 70.3856 98.6323 70.047 95.3961 70.047C92.2756 70.047 89.5239 70.5705 87.107 71.5755C84.6549 72.5952 82.6513 73.9819 81.0553 75.7184L79.5425 74.0412C79.5428 74.041 79.5422 74.0415 79.5425 74.0412Z" fill="white"/>
+          </g>
+          </g>
+          </g>
+          </svg>
+
+      </div>
+     
+         
+      </div>
+      <div class="header__navbar">
+        <nav class="header__menu">
+          
+
+<a href="/get/CTBrowserSetup.exe" class="js-accept" download>Download</a>
+<a target="_top" href="https://cryptobrowser.site/en/faq/">FAQ</a>
+<a target="_top" href="https://cryptobrowser.site/en/news/">News</a>
+<a target="_top" href="https://cryptobrowser.site/en/affiliate/">Affiliate</a>
+<a target="_top" href="https://cryptotab.farm/">Farm</a>
+<a target="_top" href="https://ctnft.net/">NFT</a>
+        </nav>
+        <span class="header__join">Join us –</span>
+        <div class="header__socials">
+          <div class="social-links">
+    <a href="https://discord.gg/cryptotab-community-997079413013352529" target="_blank" class="social-link social-link_discord" aria-label="discord">
+        <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.5001 1.52023C22.0977 5.44291 23.3805 9.86758 22.901 14.9614C22.899 14.983 22.888 15.0027 22.8708 15.0157C20.9037 16.4993 18.9979 17.3996 17.1188 17.9967C17.1042 18.0013 17.0885 18.001 17.074 17.996C17.0595 17.991 17.0469 17.9814 17.038 17.9687C16.6039 17.3483 16.2094 16.6942 15.8638 16.0073C15.844 15.9669 15.8621 15.9181 15.903 15.9022C16.5294 15.6598 17.1251 15.3692 17.6981 15.0252C17.7432 14.998 17.7461 14.9316 17.7044 14.8997C17.5828 14.807 17.4623 14.7095 17.3471 14.6121C17.3255 14.594 17.2965 14.5905 17.272 14.6026C13.5521 16.367 9.47705 16.367 5.7131 14.6026C5.68867 14.5914 5.65963 14.5952 5.63864 14.6129C5.52364 14.7104 5.40289 14.807 5.28243 14.8997C5.24074 14.9316 5.24419 14.998 5.28962 15.0252C5.8626 15.3627 6.4583 15.6598 7.0839 15.9034C7.12444 15.9193 7.1437 15.9669 7.12358 16.0073C6.78548 16.6951 6.39103 17.3491 5.94885 17.9695C5.92959 17.9946 5.89797 18.0062 5.86807 17.9967C3.99788 17.3996 2.09205 16.4993 0.124977 15.0157C0.108589 15.0027 0.0968019 14.9821 0.0950769 14.9605C-0.305697 10.5544 0.511089 6.09315 3.49275 1.51935C3.49993 1.50724 3.51086 1.49779 3.52351 1.49218C4.99062 0.800604 6.56238 0.291813 8.20515 0.00124481C8.23505 -0.00347988 8.26495 0.0106942 8.28048 0.0378612C8.48345 0.406978 8.71546 0.880333 8.87244 1.26717C10.604 0.995497 12.3627 0.995497 14.1305 1.26717C14.2875 0.888601 14.5115 0.406978 14.7136 0.0378612C14.7208 0.0243839 14.7319 0.0135867 14.7454 0.00701094C14.759 0.000435179 14.7742 -0.0015829 14.7889 0.00124481C16.4325 0.292699 18.0043 0.80149 19.4702 1.49218C19.4832 1.49779 19.4938 1.50724 19.5001 1.52023V1.52023ZM9.75276 9.89771C9.77087 8.59517 8.84627 7.51735 7.68564 7.51735C6.53449 7.51735 5.61881 8.58572 5.61881 9.89771C5.61881 11.2094 6.5526 12.2778 7.68564 12.2778C8.83707 12.2778 9.75276 11.2094 9.75276 9.89771V9.89771ZM17.3951 9.89771C17.4132 8.59517 16.4886 7.51735 15.3282 7.51735C14.1768 7.51735 13.2611 8.58572 13.2611 9.89771C13.2611 11.2094 14.1949 12.2778 15.3282 12.2778C16.4886 12.2778 17.3951 11.2094 17.3951 9.89771V9.89771Z" fill-opacity="0.98"/>
+        </svg>
+    </a>
+    <a href="https://www.facebook.com/CryptoTabFamilyOfficial" target="_blank" class="social-link social-link_fb" aria-label="fb">
+        <svg width="41" height="41" viewBox="0 0 41 41" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0012 0C31.0475 0 40.0023 8.95482 40.0023 20.0012C40.0023 29.9843 32.6882 38.2589 23.1264 39.7594C22.1081 39.9191 21.0639 40.0029 20.0007 40.0029C18.9375 40.0029 17.8938 39.9197 16.8755 39.7599C7.31391 38.2592 0 29.9842 0 20.0012C0 8.95482 8.95482 0 20.0012 0Z" fill="currentColor"/>
+          <g><path fill-rule="evenodd" clip-rule="evenodd" d="M27.7863 25.7833L28.6731 20.0017H23.1259V16.2498C23.1259 14.6681 23.9008 13.1263 26.3854 13.1263H28.9075V8.20412C28.9075 8.20412 26.6186 7.81348 24.4303 7.81348C19.8616 7.81348 16.8755 10.5824 16.8755 15.5952V20.0017H11.7971V25.7833H16.8755V39.7599C17.8938 39.9197 18.9375 40.0029 20.0007 40.0029C21.0639 40.0029 22.1076 39.9197 23.1259 39.7599V25.7833H27.7863Z" /></g>
+        </svg>
+    </a>
+    
+    <a href="https://t.me/CryptoTabChannel" target="_blank" class="social-link social-link_telegram" aria-label="telegram">
+        <svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="getcryptotab--chat-icons" transform="translate(-771.000000, -49.000000)">
+                    <g id="first" transform="translate(-100.000000, -61.000000)">
+                        <g id="social" transform="translate(726.000000, 109.000000)">
+                            <path d="M161.907864,16.9314884 L164.926378,2.58440214 C165.073622,1.98970427 165,1.54368086 164.705511,1.24633193 C164.411022,0.948982988 164.116533,0.948982988 163.674799,1.09765746 L145.931827,8.01102025 C145.563715,8.15969472 145.269226,8.30836919 145.121981,8.53138089 C144.974737,8.7543926 144.974737,8.90306707 145.048359,9.05174153 C145.121981,9.200416 145.342848,9.34909047 145.71096,9.42342771 L150.275542,10.8358352 L160.803529,4.14548407 C161.098019,3.92247236 161.318885,3.92247236 161.46613,3.9968096 C161.539752,4.07114683 161.539752,4.14548407 161.392508,4.29415853 L152.852322,12.1739054 L152.484211,16.9314884 C152.7787,16.9314884 153.073189,16.7828139 153.4413,16.485465 L155.649969,14.3296852 L160.214551,17.749198 C161.171641,18.2695586 161.686997,17.9722097 161.907864,16.9314884 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <a href="https://twitter.com/CryptoTabnet" target="_blank" class="social-link social-link_twitter" aria-label="twitter">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.2033 1.875H17.9599L11.9374 8.75833L19.0224 18.125H13.4749L9.12992 12.4442L4.15826 18.125H1.39992L7.84159 10.7625L1.04492 1.875H6.73326L10.6608 7.0675L15.2033 1.875ZM14.2358 16.475H15.7633L5.90326 3.43833H4.26409L14.2358 16.475Z" fill="fff"></path>
+            </svg>
+    </a>
+    <a href="https://www.instagram.com/cryptotabme/" target="_blank" class="social-link social-link_instagram" aria-label="instagram">
+        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ctb_instagram-youtube" transform="translate(-1110.000000, -51.000000)" fill="#494949" fill-rule="nonzero">
+                    <g id="head" transform="translate(40.000000, 30.000000)">
+                        <g id="social" transform="translate(882.000000, 20.000000)">
+                            <g id="instagram" transform="translate(188.000000, 1.000000)">
+                                <path d="M1.91145833,5.79828774 L1.91145833,14.1841341 C1.91145833,16.3253435 3.62515745,18.0595703 5.74047844,18.0595703 L14.1241049,18.0595703 C16.2379466,18.0595703 17.953125,16.3238517 17.953125,14.1841341 L17.953125,5.79828774 C17.953125,3.65707835 16.2394259,1.92285156 14.1241049,1.92285156 L5.74047844,1.92285156 C3.62663676,1.92285156 1.91145833,3.65857021 1.91145833,5.79828774 Z M0.0885416667,5.79828774 C0.0885416667,2.6390024 2.62007905,0.0771484375 5.74047844,0.0771484375 L14.1241049,0.0771484375 C17.2459848,0.0771484375 19.7760417,2.63751176 19.7760417,5.79828774 L19.7760417,14.1841341 C19.7760417,17.3434195 17.2445043,19.9052734 14.1241049,19.9052734 L5.74047844,19.9052734 C2.61859853,19.9052734 0.0885416667,17.3449101 0.0885416667,14.1841341 L0.0885416667,5.79828774 Z M9.95833333,15.3173828 C7.09623268,15.3173828 4.77604167,12.9681894 4.77604167,10.0703125 C4.77604167,7.17243559 7.09623268,4.82324219 9.95833333,4.82324219 C12.820434,4.82324219 15.140625,7.17243559 15.140625,10.0703125 C15.140625,12.9681894 12.820434,15.3173828 9.95833333,15.3173828 Z M9.95833333,13.4716797 C11.8136649,13.4716797 13.3177083,11.9488357 13.3177083,10.0703125 C13.3177083,8.19178927 11.8136649,6.66894531 9.95833333,6.66894531 C8.10300175,6.66894531 6.59895833,8.19178927 6.59895833,10.0703125 C6.59895833,11.9488357 8.10300175,13.4716797 9.95833333,13.4716797 Z M15.1927083,5.95703125 C14.5023524,5.95703125 13.9427083,5.39039164 13.9427083,4.69140625 C13.9427083,3.99242086 14.5023524,3.42578125 15.1927083,3.42578125 C15.8830643,3.42578125 16.4427083,3.99242086 16.4427083,4.69140625 C16.4427083,5.39039164 15.8830643,5.95703125 15.1927083,5.95703125 Z" id="instagram_up"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <a href="https://www.youtube.com/c/CryptoTabBrowser" target="_blank" class="social-link social-link_youtube" aria-label="youtube">
+        <svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ctb_instagram-youtube" transform="translate(-1038.000000, -702.000000)" fill="#FFFFFF">
+                    <g id="footer" transform="translate(0.000000, 570.000000)">
+                        <g id="Group" transform="translate(897.000000, 95.000000)">
+                            <g id="social" transform="translate(3.000000, 34.000000)">
+                                <g id="youtube_icon" transform="translate(138.000000, 3.000000)">
+                                    <path d="M9.98451161,0 C14.7021717,0 16.9409606,0.2252828 16.9409606,0.2252828 C16.9409606,0.2252828 18.6569011,0.284647225 19.3276204,1.56051046 C19.3276204,1.56051046 19.9983397,2.48627459 19.9983397,7 C19.9983397,7 20.0387416,9.79432782 19.7209449,11.2799013 C19.4031007,12.7654276 18.7012957,13.1992881 18.7012957,13.1992881 C18.7012957,13.1992881 18.2510758,13.6331014 17.2579492,13.7514056 C16.2648227,13.8697569 13.0446,14 9.98451161,14 C9.98451161,14 4.38247739,13.9968383 2.49551791,13.6871806 C0.608558439,13.3775701 0.343474356,11.6280656 0.343474356,11.6280656 C0.343474356,11.6280656 -0.429342946,7.19932856 0.343474356,2.37688927 C0.343474356,2.37688927 0.567158361,0.45061279 2.82177524,0.2252828 C2.82177524,0.2252828 5.26680397,0 9.98451161,0 Z M13.4065934,6.890625 L7.91208791,4.15625 L7.91208791,9.625 L13.4065934,6.890625 Z" id="youtube_icon-up"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+</div>
+
+        </div>
+        <div class="header__lang">
+          
+
+
+
+
+<div class="lang">
+    <div class="lang__current"><img src="https://cdn.cryptobrowser.space/static/bl//images/lang/en.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/en@2x.png 2x" alt="en"/>en</div>
+    <div class="lang__list">
+        
+            
+        
+            
+                
+                    <a class="lang__item" href="/de/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/de.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/de@2x.png 2x" alt="de"/>de
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/fr/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/fr.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/fr@2x.png 2x" alt="fr"/>fr
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/es/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/es.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/es@2x.png 2x" alt="es"/>es
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/it/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/it.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/it@2x.png 2x" alt="it"/>it
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/ru/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/ru.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/ru@2x.png 2x" alt="ru"/>ru
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/pt/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/pt.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/pt@2x.png 2x" alt="pt"/>pt
+                    </a>
+                
+            
+        
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+	<div class="container  container--flex">
+		<div class="card card_form card_error">
+			<div class="card__body">
+				<img class="icon" src="https://cdn.cryptobrowser.space/static/bl/images/icon-circle-search.svg" alt="">
+				<div class="error-label">Error 404</div>
+				<h2 class="error-title">Page not found</h2>
+				<a href="/" class="btn  btn_primary">OK</a>
+			</div>
+		</div>
+	</div>
+
+  
+
+<div class="footer">
+    <div class="footer__content">
+        <div class="footer__logo">
+            <img width="236" height="40" src="https://cdn.cryptobrowser.space/static/bl/images/logo-footer.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/logo-footer%402x.png 2x" alt="Cryptotab Logo"/>
+        </div>
+        <div class="footer__menu">
+            <div class="menu">
+                <div class="menu__label">General</div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/">Overview</a></div>
+                <div class="menu__item"><a href="#!" class="js-accept">Download Browser</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/faq/">FAQ</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/cryptotab/">CryptoTab</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/affiliate/">Affiliate Program</a></div>
+
+            </div>
+            <div class="menu">
+                <div class="menu__label">Additional</div>
+                <div class="menu__item"><a href="https://ncwallet.net/" target="_blank">NC Wallet</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/news/">Tips and News</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/affiliate/promo/">Links & Promo</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/journal/">Payments Journal</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/terms/">Terms of Use</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/cloudboost_terms/">Cloud.Boost Terms of Use</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/privacy/">Privacy Policy</a></div>
+                <div class="menu__item"><a target="_top" href="https://cryptobrowser.site/en/cookies-policy/">Cookie Policy</a></div>
+                <div class="menu__item"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdl5hATDzld10NzUeKvUtzauFfnh14cLE4X9rNVTVOfS-Ts5A/viewform">Advertise</a></div>
+            </div>
+            <div class="menu">
+              <div class="menu__label">CryptoTab Family</div>
+              <div class="menu__item"><a target="_top"  href="https://cryptobrowser.site/en/">CryptoTab <b>Browser</b></a></div>
+              
+              
+              
+              <div class="menu__item"><a class="js-gplay" target="_blank" href="https://play.app.goo.gl/?link=https%3A//play.google.com/store/apps/details%3Fid%3Dmax.cryptotab.android%26referrer%3Dutm_source%253Dlanding%2526utm_medium%253Dfooter">CryptoTab <b>for Android</b></a><span class="bonus bonus_purple">Max</span></div>
+              <div class="menu__item"><a target="_blank" class="js-gplay" href="%2526utm_medium%253Dfooter" >CryptoTab <b>for Android</b></a><span class="bonus bonus_orange">Pro</span></div>
+              <div class="menu__item"><a target="_blank" class="js-gplay" href="%2526utm_medium%253Dfooter" >CryptoTab <b>for Android</b></a><span class="bonus bonus_turq">Lite</span></div>
+              <div class="menu__item"><a target="_blank" href="https://pool.cryptobrowser.site/en/landing/">CT Pool</a><span class="bonus bonus_red">New</span></div>
+              <div class="menu__item"><a target="_blank" href="https://cryptotab.farm/en/">CryptoTab <b>Farm</b></a></div>
+              <div class="menu__item"><a target="_blank" href="https://ctags.app/">CTags</a><span class="bonus bonus_red">New</span></div>
+              <div class="menu__item"><a target="_blank" href="https://ct-vpn.com/en/landing_full/">CT VPN</a></div>
+              
+              <div class="menu__item"><a target="_blank" href="https://cb.click">CB.click</a></div>
+              <div class="menu__item"><a target="_blank" href="https://start.cryptobrowser.site/en/">CryptoTab <b>START</b></a><span class="bonus bonus_blue">Bonus</span></div>
+              <div class="menu__item"><a target="_blank" href="https://ctabs.net/">CTabs </a><span class="bonus bonus_blue">Bonus</span></div>
+            </div>
+            <div class="menu">
+                <div class="menu__label">Stay Connected</div>
+                <div class="menu__item menu__item_join">
+                    <div class="social-links">
+    <a href="https://discord.gg/cryptotab-community-997079413013352529" target="_blank" class="social-link social-link_discord" aria-label="discord">
+        <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.5001 1.52023C22.0977 5.44291 23.3805 9.86758 22.901 14.9614C22.899 14.983 22.888 15.0027 22.8708 15.0157C20.9037 16.4993 18.9979 17.3996 17.1188 17.9967C17.1042 18.0013 17.0885 18.001 17.074 17.996C17.0595 17.991 17.0469 17.9814 17.038 17.9687C16.6039 17.3483 16.2094 16.6942 15.8638 16.0073C15.844 15.9669 15.8621 15.9181 15.903 15.9022C16.5294 15.6598 17.1251 15.3692 17.6981 15.0252C17.7432 14.998 17.7461 14.9316 17.7044 14.8997C17.5828 14.807 17.4623 14.7095 17.3471 14.6121C17.3255 14.594 17.2965 14.5905 17.272 14.6026C13.5521 16.367 9.47705 16.367 5.7131 14.6026C5.68867 14.5914 5.65963 14.5952 5.63864 14.6129C5.52364 14.7104 5.40289 14.807 5.28243 14.8997C5.24074 14.9316 5.24419 14.998 5.28962 15.0252C5.8626 15.3627 6.4583 15.6598 7.0839 15.9034C7.12444 15.9193 7.1437 15.9669 7.12358 16.0073C6.78548 16.6951 6.39103 17.3491 5.94885 17.9695C5.92959 17.9946 5.89797 18.0062 5.86807 17.9967C3.99788 17.3996 2.09205 16.4993 0.124977 15.0157C0.108589 15.0027 0.0968019 14.9821 0.0950769 14.9605C-0.305697 10.5544 0.511089 6.09315 3.49275 1.51935C3.49993 1.50724 3.51086 1.49779 3.52351 1.49218C4.99062 0.800604 6.56238 0.291813 8.20515 0.00124481C8.23505 -0.00347988 8.26495 0.0106942 8.28048 0.0378612C8.48345 0.406978 8.71546 0.880333 8.87244 1.26717C10.604 0.995497 12.3627 0.995497 14.1305 1.26717C14.2875 0.888601 14.5115 0.406978 14.7136 0.0378612C14.7208 0.0243839 14.7319 0.0135867 14.7454 0.00701094C14.759 0.000435179 14.7742 -0.0015829 14.7889 0.00124481C16.4325 0.292699 18.0043 0.80149 19.4702 1.49218C19.4832 1.49779 19.4938 1.50724 19.5001 1.52023V1.52023ZM9.75276 9.89771C9.77087 8.59517 8.84627 7.51735 7.68564 7.51735C6.53449 7.51735 5.61881 8.58572 5.61881 9.89771C5.61881 11.2094 6.5526 12.2778 7.68564 12.2778C8.83707 12.2778 9.75276 11.2094 9.75276 9.89771V9.89771ZM17.3951 9.89771C17.4132 8.59517 16.4886 7.51735 15.3282 7.51735C14.1768 7.51735 13.2611 8.58572 13.2611 9.89771C13.2611 11.2094 14.1949 12.2778 15.3282 12.2778C16.4886 12.2778 17.3951 11.2094 17.3951 9.89771V9.89771Z" fill-opacity="0.98"/>
+        </svg>
+    </a>
+    <a href="https://www.facebook.com/CryptoTabFamilyOfficial" target="_blank" class="social-link social-link_fb" aria-label="fb">
+        <svg width="41" height="41" viewBox="0 0 41 41" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0012 0C31.0475 0 40.0023 8.95482 40.0023 20.0012C40.0023 29.9843 32.6882 38.2589 23.1264 39.7594C22.1081 39.9191 21.0639 40.0029 20.0007 40.0029C18.9375 40.0029 17.8938 39.9197 16.8755 39.7599C7.31391 38.2592 0 29.9842 0 20.0012C0 8.95482 8.95482 0 20.0012 0Z" fill="currentColor"/>
+          <g><path fill-rule="evenodd" clip-rule="evenodd" d="M27.7863 25.7833L28.6731 20.0017H23.1259V16.2498C23.1259 14.6681 23.9008 13.1263 26.3854 13.1263H28.9075V8.20412C28.9075 8.20412 26.6186 7.81348 24.4303 7.81348C19.8616 7.81348 16.8755 10.5824 16.8755 15.5952V20.0017H11.7971V25.7833H16.8755V39.7599C17.8938 39.9197 18.9375 40.0029 20.0007 40.0029C21.0639 40.0029 22.1076 39.9197 23.1259 39.7599V25.7833H27.7863Z" /></g>
+        </svg>
+    </a>
+    
+    <a href="https://t.me/CryptoTabChannel" target="_blank" class="social-link social-link_telegram" aria-label="telegram">
+        <svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="getcryptotab--chat-icons" transform="translate(-771.000000, -49.000000)">
+                    <g id="first" transform="translate(-100.000000, -61.000000)">
+                        <g id="social" transform="translate(726.000000, 109.000000)">
+                            <path d="M161.907864,16.9314884 L164.926378,2.58440214 C165.073622,1.98970427 165,1.54368086 164.705511,1.24633193 C164.411022,0.948982988 164.116533,0.948982988 163.674799,1.09765746 L145.931827,8.01102025 C145.563715,8.15969472 145.269226,8.30836919 145.121981,8.53138089 C144.974737,8.7543926 144.974737,8.90306707 145.048359,9.05174153 C145.121981,9.200416 145.342848,9.34909047 145.71096,9.42342771 L150.275542,10.8358352 L160.803529,4.14548407 C161.098019,3.92247236 161.318885,3.92247236 161.46613,3.9968096 C161.539752,4.07114683 161.539752,4.14548407 161.392508,4.29415853 L152.852322,12.1739054 L152.484211,16.9314884 C152.7787,16.9314884 153.073189,16.7828139 153.4413,16.485465 L155.649969,14.3296852 L160.214551,17.749198 C161.171641,18.2695586 161.686997,17.9722097 161.907864,16.9314884 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <a href="https://twitter.com/CryptoTabnet" target="_blank" class="social-link social-link_twitter" aria-label="twitter">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.2033 1.875H17.9599L11.9374 8.75833L19.0224 18.125H13.4749L9.12992 12.4442L4.15826 18.125H1.39992L7.84159 10.7625L1.04492 1.875H6.73326L10.6608 7.0675L15.2033 1.875ZM14.2358 16.475H15.7633L5.90326 3.43833H4.26409L14.2358 16.475Z" fill="fff"></path>
+            </svg>
+    </a>
+    <a href="https://www.instagram.com/cryptotabme/" target="_blank" class="social-link social-link_instagram" aria-label="instagram">
+        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ctb_instagram-youtube" transform="translate(-1110.000000, -51.000000)" fill="#494949" fill-rule="nonzero">
+                    <g id="head" transform="translate(40.000000, 30.000000)">
+                        <g id="social" transform="translate(882.000000, 20.000000)">
+                            <g id="instagram" transform="translate(188.000000, 1.000000)">
+                                <path d="M1.91145833,5.79828774 L1.91145833,14.1841341 C1.91145833,16.3253435 3.62515745,18.0595703 5.74047844,18.0595703 L14.1241049,18.0595703 C16.2379466,18.0595703 17.953125,16.3238517 17.953125,14.1841341 L17.953125,5.79828774 C17.953125,3.65707835 16.2394259,1.92285156 14.1241049,1.92285156 L5.74047844,1.92285156 C3.62663676,1.92285156 1.91145833,3.65857021 1.91145833,5.79828774 Z M0.0885416667,5.79828774 C0.0885416667,2.6390024 2.62007905,0.0771484375 5.74047844,0.0771484375 L14.1241049,0.0771484375 C17.2459848,0.0771484375 19.7760417,2.63751176 19.7760417,5.79828774 L19.7760417,14.1841341 C19.7760417,17.3434195 17.2445043,19.9052734 14.1241049,19.9052734 L5.74047844,19.9052734 C2.61859853,19.9052734 0.0885416667,17.3449101 0.0885416667,14.1841341 L0.0885416667,5.79828774 Z M9.95833333,15.3173828 C7.09623268,15.3173828 4.77604167,12.9681894 4.77604167,10.0703125 C4.77604167,7.17243559 7.09623268,4.82324219 9.95833333,4.82324219 C12.820434,4.82324219 15.140625,7.17243559 15.140625,10.0703125 C15.140625,12.9681894 12.820434,15.3173828 9.95833333,15.3173828 Z M9.95833333,13.4716797 C11.8136649,13.4716797 13.3177083,11.9488357 13.3177083,10.0703125 C13.3177083,8.19178927 11.8136649,6.66894531 9.95833333,6.66894531 C8.10300175,6.66894531 6.59895833,8.19178927 6.59895833,10.0703125 C6.59895833,11.9488357 8.10300175,13.4716797 9.95833333,13.4716797 Z M15.1927083,5.95703125 C14.5023524,5.95703125 13.9427083,5.39039164 13.9427083,4.69140625 C13.9427083,3.99242086 14.5023524,3.42578125 15.1927083,3.42578125 C15.8830643,3.42578125 16.4427083,3.99242086 16.4427083,4.69140625 C16.4427083,5.39039164 15.8830643,5.95703125 15.1927083,5.95703125 Z" id="instagram_up"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <a href="https://www.youtube.com/c/CryptoTabBrowser" target="_blank" class="social-link social-link_youtube" aria-label="youtube">
+        <svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ctb_instagram-youtube" transform="translate(-1038.000000, -702.000000)" fill="#FFFFFF">
+                    <g id="footer" transform="translate(0.000000, 570.000000)">
+                        <g id="Group" transform="translate(897.000000, 95.000000)">
+                            <g id="social" transform="translate(3.000000, 34.000000)">
+                                <g id="youtube_icon" transform="translate(138.000000, 3.000000)">
+                                    <path d="M9.98451161,0 C14.7021717,0 16.9409606,0.2252828 16.9409606,0.2252828 C16.9409606,0.2252828 18.6569011,0.284647225 19.3276204,1.56051046 C19.3276204,1.56051046 19.9983397,2.48627459 19.9983397,7 C19.9983397,7 20.0387416,9.79432782 19.7209449,11.2799013 C19.4031007,12.7654276 18.7012957,13.1992881 18.7012957,13.1992881 C18.7012957,13.1992881 18.2510758,13.6331014 17.2579492,13.7514056 C16.2648227,13.8697569 13.0446,14 9.98451161,14 C9.98451161,14 4.38247739,13.9968383 2.49551791,13.6871806 C0.608558439,13.3775701 0.343474356,11.6280656 0.343474356,11.6280656 C0.343474356,11.6280656 -0.429342946,7.19932856 0.343474356,2.37688927 C0.343474356,2.37688927 0.567158361,0.45061279 2.82177524,0.2252828 C2.82177524,0.2252828 5.26680397,0 9.98451161,0 Z M13.4065934,6.890625 L7.91208791,4.15625 L7.91208791,9.625 L13.4065934,6.890625 Z" id="youtube_icon-up"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+</div>
+
+                </div>
+
+                <div class="menu__item" style="margin-top: 20px"><div class="feedback-link">Contact Support <a href="https://cryptobrowser.site/en/feedback/">Here</a></div></div>
+                <div class="menu__item"><div class="other-inquiries">Other Inquiries: <a href="/cdn-cgi/l/email-protection#9efdf1f0eafffdeaebeddefdece7eeeaf1fcecf1e9edfbecb0edf7eafb"><span class="__cf_email__" data-cfemail="4a2925243e2b293e3f390a2938333a3e252838253d392f386439233e2f">[email&#160;protected]</span></a></div></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__content">
+            <div class="footer__copyright">
+                &copy; 2026. <span>All rights reserved. CryptoCompany OÜ, Rebase tn 1, Tartu 50104, Estonia</span>
+            </div>
+            
+
+
+
+
+<div class="lang">
+    <div class="lang__current"><img src="https://cdn.cryptobrowser.space/static/bl//images/lang/en.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/en@2x.png 2x" alt="en"/>en</div>
+    <div class="lang__list">
+        
+            
+        
+            
+                
+                    <a class="lang__item" href="/de/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/de.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/de@2x.png 2x" alt="de"/>de
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/fr/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/fr.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/fr@2x.png 2x" alt="fr"/>fr
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/es/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/es.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/es@2x.png 2x" alt="es"/>es
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/it/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/it.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/it@2x.png 2x" alt="it"/>it
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/ru/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/ru.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/ru@2x.png 2x" alt="ru"/>ru
+                    </a>
+                
+            
+        
+            
+                
+                    <a class="lang__item" href="/pt/">
+                        <img src="https://cdn.cryptobrowser.space/static/bl/images/lang/pt.png" srcset="https://cdn.cryptobrowser.space/static/bl/images/lang/pt@2x.png 2x" alt="pt"/>pt
+                    </a>
+                
+            
+        
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" data-src="/en/i18n.js"></script>
+  <script src="https://cdn.cryptobrowser.space/static/bl/scripts/vendor/lottie.js"></script>
+  <script type="module" src="https://cdn.cryptobrowser.space/static/bl/scripts/animations/animations.js"></script>
+  <script src="https://cdn.cryptobrowser.space/static/bl/scripts/components/navbar.js?v=1"></script>
+  <script src="https://cdn.cryptobrowser.space/static/bl/scripts/index_v2.js?t=1627563021"></script>
+
+  
+
+
+  </div>
+
+  
+
+  
+  <script async>
+window.DjangoCryptotabSharing = {};
+
+window.DjangoCryptotabSharing.lang ='en';
+
+window.DjangoCryptotabSharing.host = 'https://cryptobrowser.site';
+
+window.DjangoCryptotabSharing.from = '';
+
+window.DjangoCryptotabSharing.disableVkApi = true
+
+window.DjangoCryptotabSharing.setLinkId = function(linkId) {
+  var buttonContainers = document.getElementsByClassName('social-btns');
+  for (var i = 0; i < buttonContainers.length; i++) {
+      buttonContainers[i].setAttribute('data-linkid', linkId);
+  }
+};
+
+var Sharing = function() {
+
+    init();
+
+    function init() {
+        initMoreEscapeHandler();
+        initMoreClickHandler();
+        initSocialButtonsHandlers();
+    }
+
+    function initMoreEscapeHandler() {
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                hide();
+            }
+        });
+    }
+
+    function initSocialButtonsHandlers() {
+        document.addEventListener('click', function(event) {
+            var handlers = {
+                eml: clientRedirectHandler,
+                vb: clientRedirectHandler,
+                vk: window.DjangoCryptotabSharing.disableVkApi ? false : vkHandler
+            };
+            var btn = closest(event.target, '.social-btn');
+            if (btn) {
+                var target = btn.getAttribute('data-target');
+                var handler = handlers[target] || serverRedirectHandler;
+                handler(event);
+            }
+        });
+    }
+
+    function serverRedirectHandler(event) {
+        var params = getSharingParams(event.target);
+        var url = getSharingURLPath() + '?' + dictToURI(params);
+        openPopup(url, params['t']);
+    }
+
+    function clientRedirectHandler(event) {
+        var params = getSharingParams(event.target);
+        params['technique'] = 'client_redirect';
+        var url = getSharingURLPath() + '?' + dictToURI(params);
+        callApi(url, function(data) {
+            var oldUnload = window.onbeforeunload;
+            window.onbeforeunload = null;  // Prevent webapp confirmation window
+            window.location = data['redirect_url'];
+            setTimeout(function(){
+                window.onbeforeunload = oldUnload;
+            }, 0);
+        });
+    }
+
+    function vkHandler(event) {
+        var params = getSharingParams(event.target);
+        params['technique'] = 'client_api';
+        var url = getSharingURLPath() + '?' + dictToURI(params);
+        callApi(url, function(data) {
+            VK.api(
+                'wall.post',
+                {
+                    'message': data.message.body + ' ' + data.message.hashtag,
+                    'attachments': data.message.image.vk_id + ',' + data.preview_url,
+                    'v':'5.85'
+                },
+                function (data) {}
+            );
+        });
+    }
+
+    function callApi(url, cb) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.send();
+        xhr.onreadystatechange = function(data) {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                try {
+                    var parsedData = JSON.parse(xhr.responseText);
+                } catch (e) {
+                    console.log(xhr.responseText);
+                    return;
+                }
+                cb(parsedData);
+            }
+        }
+    }
+
+    function getSharingParams(btn) {
+        var container = closest(btn, '.social-btns');
+        var params = {
+            current_url: container.getAttribute('data-currenturl'),
+            msg: container.getAttribute('data-msg'),
+            link_id: container.getAttribute('data-linkid'),
+            t: btn.getAttribute('data-target')
+        };
+        for (var key in params) {
+            if (!params[key]) {
+                delete params[key];
+            }
+        }
+        if (window.DjangoCryptotabSharing.from) {
+            params['src']= window.DjangoCryptotabSharing.from;
+        }
+        if (window.DjangoCryptotabSharing.blank) {
+            params['blank'] = window.DjangoCryptotabSharing.blank;
+        }
+        return params;
+    }
+
+    function initMoreClickHandler() {
+        document.addEventListener('click', function(event) {
+            if ( !closest(event.target, '.social-btns') ) {
+                hide();
+            }
+            if ( closest(event.target, '.social-btns__more') ) {
+                toggle(event.target);
+            }
+        });
+    }
+
+    function toggle(el) {
+        var list = el.parentNode.querySelector('.social-btns__list') || el.parentNode.parentNode.querySelector('.social-btns__list');
+        if ( list.classList.contains('active') ) {
+            list.classList.remove('active');
+        } else {
+            list.classList.add('active');
+        }
+    }
+
+    function hide() {
+        var lists = document.querySelectorAll('.social-btns__list');
+        for (var i=0; i < lists.length; i++) {
+            lists[i].classList.remove('active');
+        }
+    }
+
+    function openPopup(url, target) {
+        if (window.DjangoCryptotabSharing.blank) {
+            window.open(url, '_blank');
+        } else {
+            var height = target === 'wa' ? 600 : 500;
+            var width = target === 'wa' ? 800 : 400;
+            var y = window.outerHeight / 2 + window.screenY - ( height / 2);
+            var x = window.outerWidth / 2 + window.screenX - ( width / 2);
+            window.open(url, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+ width +', height='+ height +', top='+y+', left='+x);
+        }
+        return false;
+    }
+
+    function closest(el, selector) {
+        var matches = el.webkitMatchesSelector ? 'webkitMatchesSelector' : (el.msMatchesSelector ? 'msMatchesSelector' : 'matches');
+        while (el.parentElement) {
+            if (el[matches](selector)) return el;
+            el = el.parentElement;
+        }
+        return null;
+    }
+
+    function debounce(func, wait, immediate) {
+        var timeout;
+        return function() {
+            var context = this, args = arguments;
+            var later = function() {
+                timeout = null;
+                if (!immediate) func.apply(context, args);
+            };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+        };
+    }
+
+    function dictToURI(dict) {
+        var str = [];
+        for(var p in dict){
+            str.push(encodeURIComponent(p) + "=" + encodeURIComponent(dict[p]));
+        }
+        return str.join("&");
+    }
+
+    function getSharingURLPath() {
+        return window.DjangoCryptotabSharing.host + '/' + window.DjangoCryptotabSharing.lang + '/cryptotab_sharing/';
+    }
+}();
+</script>
+
+  
+<script type="async" src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script type="async" src="https://www.gstatic.com/firebasejs/8.7.1/firebase-messaging.js"></script>
+<script async>
+  document.addEventListener('DOMContentLoaded', function() {
+    try {
+    firebase.initializeApp({
+      appId: '1:1048190524206:web:1e82204e3671b1a88b38bf',
+      apiKey: 'AIzaSyAZkX5mzCnGJGewUMK4ExGi-_LyOMHGh5g',
+      projectId: 'web-push-a5889',
+      messagingSenderId: '1048190524206'
+    })
+
+    var fb_messaging = null
+    var fb_firststart = false
+
+    var log_data = {
+      
+      
+      
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    fcmInit()
+
+    function getToken () {
+
+      var timeout = setTimeout(showNotificationOverlay, 500)
+
+      fb_messaging.requestPermission()
+        .then(function () {
+          fb_messaging.getToken()
+            .then(function (currentToken) {
+              if (currentToken) {
+                sendTokenToServer(currentToken)
+              } else {
+                setTokenSentToServer(false)
+              }
+            })
+          hideNotificationOverlay()
+          clearTimeout(timeout)
+        })
+        .catch(function (e) {
+          hideNotificationOverlay(e)
+          clearTimeout(timeout)
+        })
+    }
+
+    function sendTokenToServer (currentToken) {
+      const sv = '3.0.0'
+      const key = sv + ':' + currentToken
+      if (!isTokenSentToServer(key)) {
+        log_data['event'] = 'register'
+        log_data['src'] = 'cb_land'
+        log_data['url'] = document.location.href
+        log_data['sv'] = sv
+        log_data['registration_id'] = currentToken
+
+        fetch('https://cryptobrowser.site/api/fcm/register/', {
+          method: 'POST',
+          body: JSON.stringify(log_data),
+          credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
+        })
+        setTokenSentToServer(key)
+      }
+    }
+
+    function sendLogToServer (ev) {
+      log_data['event'] = ev
+
+      fetch('https://cryptobrowser.site/api/notifications/event/', {
+        method: 'POST',
+        body: JSON.stringify(log_data),
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+      })
+    }
+
+    function isTokenSentToServer (currentToken) {
+      return window.localStorage.getItem('sentFirebaseMessagingToken') === currentToken
+    }
+
+    function setTokenSentToServer (currentToken) {
+      if (currentToken) {
+        window.localStorage.setItem('sentFirebaseMessagingToken', currentToken)
+      } else {
+        window.localStorage.removeItem('sentFirebaseMessagingToken')
+      }
+    }
+
+    function showNotificationOverlay () {
+      var notificationOverlay = document.querySelector('.notification-overlay')
+
+      fb_firststart = true
+
+      if (notificationOverlay) {
+        notificationOverlay.classList.add('show')
+      }
+
+      sendLogToServer('ask')
+    }
+
+    function hideNotificationOverlay (error) {
+      var notificationOverlay = document.querySelector('.notification-overlay')
+
+      if (notificationOverlay) {
+        notificationOverlay.classList.remove('show')
+      }
+
+      if (error && fb_firststart) {
+        if (error.code === 'messaging/permission-blocked') {
+          sendLogToServer('blocked')
+        }
+
+        if (error.code === 'messaging/permission-default') {
+          sendLogToServer('ignore')
+        }
+      }
+    }
+
+    function fcmInit () {
+      if (
+        firebase.messaging.isSupported() &&
+        'Notification' in window &&
+        'serviceWorker' in navigator &&
+        'localStorage' in window &&
+        'fetch' in window &&
+        'postMessage' in window
+      ) {
+
+        fb_messaging = firebase.messaging()
+        fb_messaging.usePublicVapidKey('BM3RHNp6cuJahggZ6BhVPYDwB3ejS7tZF_A7irDNwnHHi2QHVsgSEJM7UdqFB-orEeYk385BurrOPquNOhyNB68')
+        getToken()
+
+        fb_messaging.onTokenRefresh(function () {
+          fb_messaging.getToken()
+            .then(function (refreshedToken) {
+              sendTokenToServer(refreshedToken)
+            })
+        })
+      }
+    }
+
+  } catch (e) {
+    if ('Sentry' in window) {
+      Sentry.captureException(e)
+    }
+  }
+  })
+</script>
+
+  
+<script async>
+  
+  var browserName = detectBrowser()
+  var isMobile = mobilecheck()
+  var iOS = isIOS()
+
+  document.body.classList.add(browserName)
+  
+  document.addEventListener('DOMContentLoaded', function (event) {
+    if (isMobile) {
+      document.body.classList.add('mobile')
+      document.body.classList.add('mobile_' + (iOS ? 'ios' : 'android'))
+    }
+    document.body.classList.add('page_loaded')
+  })
+
+  var dynamicManifest = {
+    'short_name': 'CryptoTab',
+    'name': 'CryptoTab Browser Mobile',
+    'icons': [
+      {
+        'src': 'https://cdn.cryptobrowser.space/static/bl/images/icon-96.png',
+        'sizes': '96x96',
+        'type': 'image/png'
+      },
+      {
+        'src': 'https://cdn.cryptobrowser.space/static/bl/images/icon-144.png',
+        'sizes': '144x144',
+        'type': 'image/png'
+      },
+      {
+        'src': 'https://cdn.cryptobrowser.space/static/bl/images/icon-192.png',
+        'sizes': '192x192',
+        'type': 'image/png'
+      },
+      {
+        'src': 'https://cdn.cryptobrowser.space/static/bl/images/icon-512.png',
+        'sizes': '512x512',
+        'type': 'image/png'
+      }
+    ],
+    'display': 'standalone',
+    'orientation': 'landscape',
+    'prefer_related_applications': true,
+    'related_applications': [
+      {
+        'platform': 'play',
+        'url': 'https://play.app.goo.gl/?link=' + encodeURIComponent('https://play.google.com/store/apps/details?id=pro.cryptotab.android&referrer='),
+        'id': 'pro.cryptotab.android'
+      },
+      {
+        'platform': 'itunes',
+        'url': 'https://itunes.apple.com/app/cryptotab-browser-pro/id1524974223'
+      }
+    ]
+  }
+
+  var stringManifest = JSON.stringify(dynamicManifest)
+  var blob = new Blob([stringManifest], { type: 'application/json' })
+  var manifestURL = URL.createObjectURL(blob)
+  var manifestPlaceholder = document.querySelector('#manifest-placeholder')
+
+  if (manifestPlaceholder) {
+    manifestPlaceholder.setAttribute('href', manifestURL)
+  }
+
+  function isIOS () {
+    return /iPhone|iPod|iPad/.test(navigator.userAgent)
+  }
+
+  function isAndroid () {
+    return /Android/.test(navigator.userAgent)
+  }
+
+  function mobilecheck () {
+    return /iPhone|iPod|iPad|Android|Linux/.test(navigator.userAgent || navigator.vendor || window.opera)
+  }
+
+  function detectBrowser () {
+    if (navigator.userAgent.indexOf('Edge') > -1) {
+      return 'edge'
+    } else if ((navigator.userAgent.indexOf('Opera') != -1 || navigator.userAgent.indexOf('OPR')) != -1) {
+      return 'opera'
+    } else if (navigator.userAgent.indexOf('Chrome') != -1) {
+      return 'chrome'
+    } else if (navigator.userAgent.indexOf('Safari') != -1) {
+      return 'safari'
+    } else if (navigator.userAgent.indexOf('Firefox') != -1) {
+      return 'firefox'
+    } else if ((navigator.userAgent.indexOf('MSIE') != -1) || (!!document.documentMode == true)) {
+      return 'ie'
+    } else {
+      return 'chrome'
+    }
+  }
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"2a838b92dc8b4c608f6ec461a21c7373","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
