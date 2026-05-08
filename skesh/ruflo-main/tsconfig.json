@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@v3/*": ["./v3/*"],
+      "@claude-flow/shared": ["./v3/@claude-flow/shared/src/index.ts"],
+      "@claude-flow/shared/*": ["./v3/@claude-flow/shared/src/*.ts"],
+      "@claude-flow/security": ["./v3/@claude-flow/security/src/index.ts"],
+      "@claude-flow/memory": ["./v3/@claude-flow/memory/src/index.ts"],
+      "@claude-flow/swarm": ["./v3/@claude-flow/swarm/src/index.ts"],
+      "@claude-flow/cli": ["./v3/@claude-flow/cli/src/index.ts"],
+      "@claude-flow/neural": ["./v3/@claude-flow/neural/src/index.ts"],
+      "@claude-flow/performance": ["./v3/@claude-flow/performance/src/index.ts"],
+      "@claude-flow/testing": ["./v3/@claude-flow/testing/src/index.ts"],
+      "@claude-flow/deployment": ["./v3/@claude-flow/deployment/src/index.ts"],
+      "@claude-flow/integration": ["./v3/@claude-flow/integration/src/index.ts"],
+      "@claude-flow/guidance": ["./v3/@claude-flow/guidance/src/index.ts"],
+      "@claude-flow/providers": ["./v3/@claude-flow/providers/src/index.ts"]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "v3/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.bench.ts",
+    "v3/__tests__/**/*.ts"
+  ]
+}
